@@ -2,8 +2,10 @@ body {
 	font-family: Lato, sans-serif;
 }
 .bild {
-
+    min-width: 70px;	
     width: 50%;
+    margin: 53px;
+    padding: 44px;
 }
 h1 {
     width: 100%;				
