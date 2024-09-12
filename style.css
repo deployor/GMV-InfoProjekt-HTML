@@ -1,0 +1,82 @@
+body {
+	font-family: Lato, sans-serif;
+}
+h1 {
+    width: 100%;				
+    font-weight: lighter;			
+    text-align: center;			
+    font-size: 40px;
+    color: rgb(240, 6, 208);			
+}
+h2 {
+    display: inline-block;			
+    text-align: center;
+    background-color: rgb(230, 23, 23);		
+    padding: 3px;				
+    margin: 5px;				
+    font-size: 28px;
+    color: white;
+}
+h3 {
+    display: inline-block;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: rgb(119, 48, 48);
+}
+.container {				
+    min-width: 775px;	
+    display: flex;
+    flex-wrap: wrap;	
+    justify-content: center;			
+}
+.main {
+    background-size: cover;		
+    min-width: 964px;			
+    min-height: 422px;			
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+    text-align: center;		
+    background-image:     url("https://abload.de/img/hamburgvyk99.jpg"); 
+}
+.more {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;	
+}
+.more div {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#sights{
+     background-image: url("https://abload.de/img/sehenswuerdigkeiteng6jig.jpg"); 
+}
+#events{
+     background-image: url("https://abload.de/img/veranstaltungensbjlz.jpg"); 
+}
+#footer {					
+    text-align: center;
+    color: indianred;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
