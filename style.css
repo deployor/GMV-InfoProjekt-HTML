@@ -3,14 +3,22 @@ body {
 }
 .bild {
     position: relative;
-    min-width: 9px;	
+    min-width: 0px;	
     width: 50%;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     position: relative;
-    top:5px; left: 1000px;
+    top:5px; left: 500px;
 }
-
+.bild1{
+    position: relative;
+    min-width: 0px;	
+    width: 50%;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    top:0px; left: 0px;
+}
 h1 {
     width: 100%;				
     font-weight: lighter;			
