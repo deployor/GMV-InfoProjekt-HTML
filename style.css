@@ -2,11 +2,15 @@ body {
 	font-family: Lato, sans-serif;
 }
 .bild {
-    min-width: 70px;	
+    position: relative;
+    min-width: 9px;	
     width: 50%;
-    margin: 53px;
-    padding: 44px;
+    margin: 1px;
+    padding: 1px;
+    position: relative;
+    top:5px; left: 1000px;
 }
+
 h1 {
     width: 100%;				
     font-weight: lighter;			
