@@ -1,0 +1,14 @@
+body {
+	font-family: Lato, sans-serif;
+    background-color: black;
+}
+.bildRechtsOben{
+    position: sticky;
+    left: 10000000000px;
+    top: 10000000000px;
+ }
+ .bildRechtUnten{
+    position: sticky;
+    left: 1px;
+    top: 50px;
+ }
