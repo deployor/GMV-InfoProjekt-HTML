@@ -1,21 +1,25 @@
 body {
 	font-family: Lato, sans-serif;
+    background-color: black;
 }
 .bild {
-    position: relative;
-    min-width: 0px;	
-    width: 50%;
-    margin: 0px;
+    
+    min-width: 100px;	
+    
+    margin: 0px auto;
     padding: 0px;
-    position: relative;
-    top:5px; left: 500px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .bild1{
     position: relative;
     min-width: 0px;	
     width: 50%;
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
     position: relative;
     top:0px; left: 0px;
 }
