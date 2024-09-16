@@ -1,0 +1,163 @@
+/* Globales */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flexbox für Hauptbereich */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    background-color: #20243a;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+/* Hauptbereich */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Kopfbereich */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e67e22;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: leuchten 3s ease-in-out infinite alternate; /* Refference zur animation für den Titel */
+}
+
+/* Aufleuchten */
+@keyframes leuchten {
+    from {
+        text-shadow: 0 0 10px #e67e22, 0 0 20px #e67e22, 0 0 30px #e67e22;
+    }
+    to {
+        text-shadow: 0 0 20px #e67e22, 0 0 30px #e67e22, 0 0 40px #e67e22;
+    }
+}
+
+/* p steht für Paragraph ;) */
+p {
+    font-size: 1.2rem;
+    color: #bdc3c7;
+}
+
+/* Frage */
+.frage {
+    background: rgba(52, 73, 94, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: einblenden 1s ease-out; /* Refference zur animation für die Frage */
+}
+
+/*/ Animation für die Frage (weil preppy) */
+@keyframes einblenden {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Frage Text */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Antworten container */
+.antworten {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* Antwort knopf halt */
+.antwort-knopf {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Hover-Effekt für Antworten */
+.antwort-knopf:hover {
+    background-color: #00d312;
+    transform: scale(1.05);
+}
+
+/* Bild in der Frage */
+.frage-bild {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Fußzeile */
+footer {
+    background: #19242e;
+    color: #95a5a6;
+    padding: 5px 0;
+    position: relative; /* Damit der footer immer unten bleibt*/
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+/* Responsive design, weil nicht alle gleiche auflösung und Seitenverhältnis haben */
+@media (max-width: 600px) {
+    .frage {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Falsch Seite */
+.fehlermeldung {
+    background: rgba(255, 0, 0, 0.712);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fehlermeldung-bild {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,74 @@
+/* Animation aber diesmal von unten :o */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Ehrlich KB mehr mittlerweile versteht man alles eh */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #884242;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+h1 {
+    text-align: center;
+    color: #65c427;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.nutritional-info {
+    background-color: #d6d6d6;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px; /* Abgerundete Ecken */
+}
+
+
+/* Listen */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ol {
+    line-height: 1.6;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
