@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passwort Zurücksetzen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          Erfolgreich Sicherheitsfragen beantwortet! <br />
+          <br />
+          Passwort Zurücksetzen
+        </h1>
+      </header>
+      <div class="container">
+        <form class="reset-form">
+          <label for="password" class="form-label">Neues Passwort:</label>
+          <input
+            type="password"
+            id="password"
+            class="form-input"
+            placeholder="Neues Passwort"
+            required
+          />
+
+          <label for="confirm-password" class="form-label"
+            >Passwort bestätigen:</label
+          >
+          <input
+            type="password"
+            id="confirm-password"
+            class="form-input"
+            placeholder="Passwort bestätigen"
+            required
+          />
+
+          <button type="button" class="btn" onclick="checkPasswords()">
+            Weiter
+          </button>
+
+          <p id="message" class="message"></p>
+        </form>
+      </div>
+    </main>
+
+    <script>
+      function checkPasswords() {
+        const password = document.getElementById("password").value;
+        const confirmPassword =
+          document.getElementById("confirm-password").value;
+        const message = document.getElementById("message");
+
+        if (password === confirmPassword) {
+          message.textContent = "Passwort erfolgreich zurückgesetzt!";
+          message.style.color = "#00d312"; // Grün für Erfolg
+          setTimeout(() => {
+            window.location.href = "OmisRezept/index.html";
+          }, 1000); // 1 Sekunde warten, um die Erfolgsmeldung anzuzeigen
+        } else {
+          message.textContent = "Die Passwörter stimmen nicht überein!";
+          message.style.color = "#ff0000"; // Rot für Fehler
+        }
+      }
+    </script>
+  </body>
+</html>
