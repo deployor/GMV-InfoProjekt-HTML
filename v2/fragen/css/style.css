@@ -127,7 +127,7 @@ footer {
 
 /* Falsch Seite */
 .falsch {
-    background: rgb(197, 0, 0);
+    background: #bd0808;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
