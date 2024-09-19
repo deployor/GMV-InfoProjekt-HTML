@@ -46,7 +46,9 @@
       </div>
     </main>
 
-    <script>
+
+    <!-- Dieses script in JS prüft ob beide passwort eingaben gleich sind. -->
+    <script> 
       function checkPasswords() {
         const password = document.getElementById("password").value;
         const confirmPassword =
@@ -55,13 +57,13 @@
 
         if (password === confirmPassword) {
           message.textContent = "Passwort erfolgreich zurückgesetzt!";
-          message.style.color = "#00d312"; // Grün für Erfolg
+          message.style.color = "#00d312";
           setTimeout(() => {
             window.location.href = "OmisRezept/index.html";
-          }, 1000); // 1 Sekunde warten, um die Erfolgsmeldung anzuzeigen
+          }, 1000);
         } else {
           message.textContent = "Die Passwörter stimmen nicht überein!";
-          message.style.color = "#ff0000"; // Rot für Fehler
+          message.style.color = "#ff0000";
         }
       }
     </script>
