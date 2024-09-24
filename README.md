@@ -18,8 +18,7 @@ Das Projekt startete mit der idee ein labyyrinth aus fragen zu machen durch die 
 
 - Größe und Farbe ändert sich beim hover in einer fade in kurve
 - Formulare buttons nutzen dammit man die weiterleitung nicht vorher sieht.
-- Buttons ändern die Hintergrundfarbe und skalieren leicht beim Hover.
-- Buttons haben eine grüne Hintergrundfarbe, weißen Text, Polsterung, keine 
+- 
 
 ## CF Pages
 
