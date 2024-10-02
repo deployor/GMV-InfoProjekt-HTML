@@ -22,4 +22,4 @@ Das Projekt startete mit der idee ein labyyrinth aus fragen zu machen durch die 
 
 ## CF Pages
 
-Das Projekt kann man immer unter diesem [link](https://info.daamen.xyz/) sehen
+Das Projekt kann man immer unter diesem [link](https://p.hdf.tf/) sehen
