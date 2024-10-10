@@ -7,8 +7,8 @@ Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri un
 ## Inhaltsverzeichnis
 
 - [Über das Projekt](#über-das-projekt)
-- [Wie sieht man das Projekt](#CFPages)
 - [Funktionen](#funktionen)
+- [Wie sieht man das Projekt](#CF-Pages)
 
 ## Über das Projekt
 
