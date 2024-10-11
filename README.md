@@ -8,7 +8,7 @@ Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri un
 
 - [Über das Projekt](#über-das-projekt)
 - [Funktionen](#funktionen)
-- [Wie sieht man das Projekt](#CF-Pages)
+- [Wie sieht man das Projekt](#Azure)
 
 ## Über das Projekt
 
@@ -20,6 +20,6 @@ Das Projekt startete mit der idee ein labyyrinth aus fragen zu machen durch die 
 - Formulare buttons nutzen dammit man die weiterleitung nicht vorher sieht.
 - 
 
-## CF Pages
+## Azure
 
-Das Projekt kann man immer unter diesem [link](https://p.hdf.tf/) sehen
+Das Projekt kann man immer unter diesem [link](https://e.hdf.tf/) sehen, das läuft auf Azure!
