@@ -81,6 +81,21 @@ p {
     transition: transform 0.2s, background-color 0.3s;
 }
 
+.button4 {
+
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin: 1%;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
 .button:hover {
     background-color: rgb(119, 119, 119);
     transform: scale(1.05);
