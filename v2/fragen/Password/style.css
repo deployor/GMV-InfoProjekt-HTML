@@ -113,4 +113,13 @@ h1 {
   font-size: 1.2rem; /* Setzt die Schriftgröße auf 1.2 Rem */
   text-align: center; /* Zentriert den Text innerhalb der Nachricht */
 }
-
+.leon1{
+  animation:leon 5s linear 0s infinite alternate ;
+  
+  }
+  @keyframes leon {
+  0% {background-color: blue;}
+  50%{background-color: red;}
+  100%{background-color: yellow;}
+  }
+  
