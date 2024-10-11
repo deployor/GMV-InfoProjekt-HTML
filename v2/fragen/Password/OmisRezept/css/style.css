@@ -155,3 +155,8 @@ iframe {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 20px auto;
 }
+.Zurück{
+  color: #0a89ff;
+  text-decoration: none;
+  font-size: 50px;
+}
