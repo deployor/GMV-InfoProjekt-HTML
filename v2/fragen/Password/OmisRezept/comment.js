@@ -4,7 +4,7 @@
     "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm"
   );
 
-  const supabaseURL = "https://tbmfotattmimxlftfgdj.supabase.co"
+  const supabaseURL = "https://tbmfotattmimxlftfgdj.supabase.co";
   const supabaseAnonKey = // Hard coding credentials, is totallly fine for a demo righttttt? 🤔
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRibWZvdGF0dG1pbXhsZnRmZ2RqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc1MTc0NDksImV4cCI6MjA0MzA5MzQ0OX0.ZrNL7Jr_lgyjJErLluVjwRfEj7zt76IAwcFf5MG-pBw";
   const supabase = createClient(supabaseURL, supabaseAnonKey); // Yeaaaa no RLS but damm this aint production 🤷‍♂️
@@ -51,7 +51,7 @@
     }
 
     const { data, error } = await supabase // add the post to supabase
-    
+
       .from("posts")
       .insert([{ username, content, created_at: new Date().toISOString() }]);
 

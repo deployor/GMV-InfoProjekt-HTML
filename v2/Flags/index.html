@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flag Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Flag Quiz</h1>
+    <div id="difficulty-selection">
+      <button onclick="startQuiz('easy')">Easy</button>
+      <button onclick="startQuiz('medium')">Medium</button>
+      <button onclick="startQuiz('hard')">Hard</button>
+    </div>
+    <div id="quiz-container" class="hidden">
+      <div id="flag-container">
+        <img id="flag" alt="Country Flag">
+      </div>
+      <div id="country-info" class="hidden">
+        <h2 id="country-name"></h2>
+      </div>
+      <div id="controls">
+        <button id="reveal-btn" onclick="revealAnswer()">Reveal Country</button>
+        <button id="correct-btn" class="hidden" onclick="updateScore(true)">Correct</button>
+        <button id="wrong-btn" class="hidden" onclick="updateScore(false)">Wrong</button>
+        <button id="next-btn" class="hidden" onclick="nextFlag()">Next Flag</button>
+      </div>
+    </div>
+    <div id="result" class="hidden">
+      <h2 id="result-message"></h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
