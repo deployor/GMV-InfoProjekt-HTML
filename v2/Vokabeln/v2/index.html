@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vokabel Trainer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Vokabel Trainer V2 <i class="fas fa-book"></i></h1>
+        <button id="toggle-theme">
+          <i class="fas fa-adjust"></i> Toggle Theme
+        </button>
+      </header>
+      <main>
+        <div class="selection-screen" id="selection-screen">
+          <h2>Sprache auswählen</h2>
+          <button class="direction-btn" id="eng-to-ger">
+            English to German
+          </button>
+          <button class="direction-btn" id="ger-to-eng">
+            German to English
+          </button>
+          <button class="direction-btn" id="eng-to-spanish">
+            English to Spanish
+          </button>
+          <button class="direction-btn" id="spanish-to-eng">
+            Spanish to English
+          </button>
+          <button class="direction-btn" id="eng-to-french">
+            English to French
+          </button>
+          <button class="direction-btn" id="french-to-eng">
+            French to English
+          </button>
+          <button class="direction-btn" id="eng-to-latin">
+            English to Latin
+          </button>
+          <button class="direction-btn" id="latin-to-eng">
+            Latin to English
+          </button>
+        </div>
+        <div class="card-container" id="card-container" style="display: none">
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar">
+              <div class="progress" id="progress"></div>
+            </div>
+            <p id="progress-text">0 out of 0</p>
+          </div>
+          <div class="card" id="flashcard">
+            <div class="front" id="front">
+              <h2 id="current-word" class="animated-text">Loading...</h2>
+              <input
+                type="text"
+                id="answer-input"
+                placeholder="Enter the translation"
+              />
+              <button id="submit-btn">
+                Submit <i class="fas fa-check"></i>
+              </button>
+            </div>
+            <div class="back" id="back">
+              <h2 id="correct-answer"></h2>
+              <p id="feedback"></p>
+              <button id="next-btn">
+                Next <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="end-screen" id="end-screen" style="display: none">
+          <h2>Congratulations! You've completed the list! 🎉</h2>
+          <button id="retry-btn">Retry</button>
+          <button id="back-to-selection-btn">Back to Selection</button>
+          <script
+            type="module"
+            src="https://unpkg.com/@splinetool/viewer@1.9.30/build/spline-viewer.js"
+            async
+          ></script>
+          <spline-viewer
+            loading-anim-type="spinner-big-dark"
+            url="https://prod.spline.design/bt8hM59KB-y1dS8D/scene.splinecode"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAANCAYAAADISGwcAAAG1ElEQVR4AQCBAH7/ANCTLAjQkywF0JMsANCTLADQkywA0JMsANCTLADQkywA0JMsANCTLADQkywE0JMsEtCTLCHQkywu0JMsONCTLD7Qkyw/0JMsPNCTLDTQkywo0JMsG9CTLA3QkywB0JMsANCTLADQkywA0JMsANCTLADQkywA0JMsANCTLADQkywAAIEAfv8A0JMsFNCTLBHQkywM0JMsBtCTLADQkywA0JMsANCTLADQkywA0JMsCNCTLBXQkywj0JMsMtCTLD/QkyxK0JMsUNCTLFLQkyxO0JMsRtCTLDvQkywt0JMsH9CTLBLQkywI0JMsAdCTLADQkywA0JMsANCTLATQkywJ0JMsDdCTLA8AgQB+/wDQkywk0JMsIdCTLBzQkywW0JMsENCTLAzQkywL0JMsDdCTLBPQkywe0JMsK9CTLDrQkyxK0JMsWNCTLGPQkyxp0JMsa9CTLGfQkyxf0JMsU9CTLEbQkyw30JMsKtCTLB/QkywY0JMsFNCTLBPQkywV0JMsGdCTLB3Qkywh0JMsIwCBAH7/ANCTLCrQkywo0JMsI9CTLB7QkywZ0JMsFtCTLBXQkywZ0JMsINCTLCvQkyw60JMsStCTLFrQkyxp0JMsdNCTLHvQkyx90JMsedCTLHHQkyxl0JMsVtCTLEfQkyw60JMsLtCTLCbQkywh0JMsINCTLCLQkywl0JMsKdCTLC3QkywvAIEAfv8A0JMsJNCTLCLQkywe0JMsGdCTLBTQkywS0JMsEtCTLBfQkywf0JMsK9CTLDrQkyxL0JMsXNCTLGvQkyx20JMsfdCTLH/Qkyx70JMsc9CTLGbQkyxX0JMsSNCTLDrQkywt0JMsJdCTLCDQkywe0JMsH9CTLCLQkywm0JMsKdCTLCsAgQB+/wDQkywW0JMsFNCTLBDQkywL0JMsB9CTLAXQkywG0JMsC9CTLBTQkywg0JMsMNCTLEHQkyxS0JMsYdCTLG3Qkyxz0JMsddCTLHHQkyxo0JMsW9CTLEzQkyw80JMsLdCTLCHQkywY0JMsEtCTLBDQkywR0JMsFNCTLBjQkywb0JMsHQCBAH7/ANCTLAvQkywI0JMsBdCTLADQkywA0JMsANCTLADQkywA0JMsCdCTLBXQkywk0JMsNdCTLEbQkyxV0JMsYNCTLGfQkyxo0JMsY9CTLFrQkyxN0JMsPtCTLC7Qkywf0JMsEtCTLAnQkywE0JMsAtCTLAPQkywG0JMsCtCTLA3QkywPAIEAfv8A0JMsCtCTLAfQkywE0JMsANCTLADQkywA0JMsANCTLADQkywF0JMsEdCTLB/Qkywv0JMsP9CTLE7QkyxY0JMsXtCTLF/Qkyxa0JMsUdCTLETQkyw10JMsJdCTLBbQkywL0JMsAtCTLADQkywA0JMsANCTLAHQkywF0JMsCdCTLAsAgQB+/wDQkywS0JMsD9CTLAvQkywG0JMsAdCTLADQkywA0JMsAdCTLAjQkywS0JMsINCTLC/Qkyw+0JMsS9CTLFXQkyxb0JMsW9CTLFfQkyxN0JMsQNCTLDLQkywj0JMsFdCTLArQkywC0JMsANCTLADQkywB0JMsBdCTLArQkywO0JMsEACBAH7/ANCTLBvQkywZ0JMsFNCTLA7QkywJ0JMsBNCTLAPQkywF0JMsC9CTLBTQkywg0JMsLtCTLDzQkyxJ0JMsUtCTLFfQkyxX0JMsUtCTLEnQkyw90JMsL9CTLCHQkywU0JMsC9CTLATQkywC0JMsA9CTLAfQkywM0JMsEdCTLBbQkywYAIEAfv8A0JMsH9CTLBzQkywX0JMsEdCTLArQkywF0JMsAtCTLAPQkywI0JMsENCTLBvQkywo0JMsNdCTLEHQkyxK0JMsTtCTLE7QkyxK0JMsQdCTLDXQkywo0JMsG9CTLBDQkywH0JMsAtCTLAHQkywE0JMsCNCTLA/QkywV0JMsGtCTLB0AgQB+/wDQkywd0JMsGtCTLBTQkywN0JMsBtCTLADQkywA0JMsANCTLADQkywI0JMsEtCTLB7Qkywq0JMsNdCTLD7QkyxC0JMsQtCTLD7Qkyw10JMsKtCTLB7QkywS0JMsB9CTLADQkywA0JMsANCTLADQkywF0JMsDNCTLBPQkywY0JMsGwGBAH7/ANCTLBnQkywW0JMsENCTLAnQkywB0JMsANCTLADQkywA0JMsANCTLADQkywK0JMsFtCTLCLQkyws0JMsNdCTLDnQkyw50JMsNdCTLCzQkywi0JMsFtCTLArQkywA0JMsANCTLADQkywA0JMsANCTLAHQkywJ0JMsENCTLBXQkywZruLAXq+J+joAAAAASUVORK5CYII="
+              alt="Spline preview"
+              style="width: 100%; height: 100%"
+          /></spline-viewer>
+        </div>
+      </main>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <script src="vocab.js"></script>
+  </body>
+</html>
