@@ -592,16 +592,169 @@ body {
     0% {top: 0px; left: 0px; background-color:  #20243a }
     100%{ top:   -1970px; left: 390px;background-color:rgb(255, 255, 255)}
   }
-  .Verschiebung{
-    left: 100px;
+  .BiSt{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt 5s linear 0s   1 forwards  normal ;
+    position: relative;
   }
-  /*
-  .GMV777{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1em;
-    height: 1em;
-   
-    background-color: blue;
-  }*/
+  @keyframes BiSt{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2010px; left: 420px; background-color:black}
+  }
+  .BiStw{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2010px; left: 420px;background-color:rgb(255, 255, 255)}
+  }
+  .BiSt1{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt1 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt1{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2040px; left: 430px; background-color:black}
+  }
+  .BiStw1{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw1 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw1{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2040px; left: 430px;background-color:rgb(255, 255, 255)}
+  }
+  .BiSt2{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt2 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt2{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2080px; left: 440px; background-color:black}
+  }
+  .BiStw2{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw2 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw2{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2080px; left: 440px;background-color:rgb(255, 255, 255)}
+  }
+ 
+  .BiSt3{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt3 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt3{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2120px; left: 450px; background-color:black}
+  }
+  .BiStw3{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw3 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw3{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2120px; left: 450px;background-color:rgb(255, 255, 255)}
+  }
+ 
+  .BiSt4{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt4 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt4{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2160px; left: 460px; background-color:black}
+  }
+  .BiStw4{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw4 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw4{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2160px; left: 460px;background-color:rgb(255, 255, 255)}
+  }
+  .BiSt5{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt5 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt5{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2200px; left: 470px; background-color:black}
+  }
+  .BiStw5{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw5 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw5{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2200px; left: 470px;background-color:rgb(255, 255, 255)}
+  }
+  .BiSt6{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiSt6 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  @keyframes BiSt6{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{top: -2230px; left: 480px; background-color:black}
+  }
+  .BiStw6{
+    height: 10px;
+    width: 10px;
+    background-color: #20243a ;
+    animation: BiStw6 5s linear 0s   1 forwards  normal ;
+    position: relative;
+  }
+  /*bindestrich*/
+  @keyframes BiStw6{
+    0% {top: 0px; left: 0px; background-color:  #20243a }
+    100%{ top:   -2230px; left: 480px;background-color:rgb(255, 255, 255)}
+  }
+ 
+ 
+ 
