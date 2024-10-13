@@ -171,12 +171,12 @@ footer {
   background: #34495ee6;
   color: #ecf0f1;
 }
-.Leon{
-    font-size: 1.2rem;
-    background:none;
-    text-decoration: none;
-    margin: 15px;
-  padding: 0px;
+.Leon {
+  font-size: 1.2rem;
+  background: none;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
@@ -185,8 +185,6 @@ footer {
   text-align: center;
   display: block;
   width: 100%;
- 
-  
+
   color: #bdc3c7;
-  
-  }
+}

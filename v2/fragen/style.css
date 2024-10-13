@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-    animation:leon1 5s linear 0s infinite alternate ;
+  animation: leon1 5s linear 0s infinite alternate;
   font-size: 2.5rem;
   color: #ffffff;
   text-transform: uppercase;
@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-    animation:leon1 5s linear 0s infinite alternate ;
+  animation: leon1 5s linear 0s infinite alternate;
   font-size: 1.2rem;
   color: #bdc3c7;
 }
@@ -53,7 +53,6 @@ p {
 }
 
 .frage {
-   
   animation: einblenden 1s ease-out;
 }
 @keyframes einblenden {
@@ -68,7 +67,7 @@ p {
 }
 
 h2 {
-    animation:leon1 5s linear 0s infinite alternate ;
+  animation: leon1 5s linear 0s infinite alternate;
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
@@ -128,12 +127,10 @@ footer {
 
   h1 {
     font-size: 2rem;
-   
   }
 
   h2 {
     font-size: 1.5rem;
-    
   }
 
   .post-button {
@@ -148,8 +145,8 @@ footer {
 }
 
 .post {
-   background: #2c3e50;
-   
+  background: #2c3e50;
+
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -177,12 +174,12 @@ footer {
   background: #34495ee6;
   color: #ecf0f1;
 }
-.Leon{
-    font-size: 1.2rem;
-    background:none;
-    text-decoration: none;
-    margin: 15px;
-  padding: 0px;
+.Leon {
+  font-size: 1.2rem;
+  background: none;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
@@ -191,20 +188,31 @@ footer {
   text-align: center;
   display: block;
   width: 100%;
- 
-  
+
   color: #bdc3c7;
 
-  animation:leon1 5s linear 0s infinite alternate ;
+  animation: leon1 5s linear 0s infinite alternate;
+}
+
+@keyframes leon1 {
+  0% {
+    color: blue;
   }
- 
-    @keyframes leon1 {
-        0% {color: blue;}
-        50%{color: red;}
-        100%{color: yellow;}
-        }
-        @keyframes leon {
-            0% {background-color: blue;}
-            50%{background-color: red;}
-            100%{background-color: yellow;}
-            }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@keyframes leon {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
