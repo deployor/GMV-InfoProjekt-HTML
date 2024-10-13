@@ -143,12 +143,20 @@ li {
   list-style-position: inside;
   margin-left: 20px;
 }
-.leon1{
-animation:leon 5s linear 0s infinite alternate ;
 
+/* Wilkommen Animation */
+.welcome-heading {
+  animation: welcome-animation 5s linear 0s infinite alternate;
 }
-@keyframes leon {
-0% {background-color: blue;}
-50%{background-color: red;}
-100%{background-color: yellow;}
+
+@keyframes welcome-animation {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
 }

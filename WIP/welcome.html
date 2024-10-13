@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Projekt</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Info Projekt - Quiz 🚀</h1>
+        <h2>Von Tom, Leon, Henri, James</h2>
+        <p>Willkommen zu unserem Info Projekt! Hier ist eine kleineee Zusammenfassung!</p>
+
+        <h3>Über das Projekt 📖</h3>
+        <p>Das Projekt startete mit der Idee, ein Labyrinth aus Fragen zu erstellen, durch das man sich durch Klicken
+            navigieren kann. Es basiert auf früheren Projekten. Da wir wieder etwas Interaktiveres machen wollten,
+            stellte HTML, das statisch ist, eine Herausforderung dar. Für den hauptteil und das meiste wird
+            <strong>KEIN</strong> js genutzt, vom code sind nur <strong>7%</strong> JS!
+        </p>
+
+        <h3>Featurreesssss ✨</h3>
+        <ul>
+            <li>Quiz</li>
+            <li>Forms anstatt refs</li>
+            <li>Version Auswahl</li>
+            <li>Vokabeltrainer</li>
+            <li>Flaggen-Quiz</li>
+            <li>Nav-leiste</li>
+            <li>Footer</li>
+            <li>3D</li>
+            <li>Konfetti</li>
+            <li>Übersichtlich strukturiert</li>
+        </ul>
+
+        <h3>Tools &amp; Co 🛠️</h3> <!-- nichts anderes als & aber special characters müssen escaped sein! -->
+        <ul>
+            <li><strong>HTML:</strong> Voraussetzung</li>
+            <li><strong>CSS:</strong> Voraussetzung</li>
+            <li><strong>JavaScript:</strong> Um das Projekt interaktiver zu machen, z.B. die Kommentare.</li>
+            <li><strong>Azure:</strong> Hosting und Datenbanken, nur teilweise.</li>
+            <li><strong>Cloudflare:</strong> CDN</li>
+            <li><strong>Supabase:</strong> Datenbanken.</li>
+            <li><strong>GitHub:</strong> Verisonsvewaltung, </li>
+        </ul>
+
+        <hr>
+        <div class="section">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Azure Logo"
+                class="logo">
+            <h3>Azure</h3>
+            <p>Azure ist eine Cloud-Computing-Plattform von Microsoft. Diese ist nicht nur deutlisch schneller als etwas
+                singlenode auszuführen sondern auch skalierbarer. Auf der wird die statische website betrieben.</p>
+        </div>
+
+        <hr>
+        <div class="section">
+            <img src="https://i.ibb.co/cJ3PVVY/cf2.png" alt="Cloudflare Logo" class="logo">
+            <h3>Cloudflare und Pages</h3>
+            <p>Cloudflare ist ein CDN also Content Delivery Network, es macht alles deutlich schneller da es inhalt
+                chachet. CF (CloudlFlare) Pages ist eine Plattform für das Hosting/Bereistellen von statischen
+                Webseiten. Obwohl es eine gute Lösung war, natürlich gratis, wechselten wir zu Azure da es für unsere
+                Anforderungen besser geeignet war, da es schneller und zuverlässiger war.</p>
+        </div>
+
+        <hr>
+        <div class="section">
+            <img src="https://docs.comnoco.com/img/docs/supabase/supabase-logo-wordmark--dark.png" alt="Supabase Logo"
+                class="logo">
+            <h3>Supabase</h3>
+            <p>Supabase ist eine Open-Source-Alternative zu Firebase. Es bietet Postgres Datenbanken, Storage, usw. Für
+                unser Projekt haben wir Supabase genutzt, da das ein simpeles setup ist, und einfach zu verwalten ist.
+            </p>
+        </div>
+
+        <hr>
+        <div class="section">
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo"
+                class="logo">
+            <h3>GitHub</h3>
+            <p>GitHub ist eine Plattform für Versionskontrolle und Zusammenarbeit. Wir haben GitHub genutzt, um den Code
+                unseres Projekts zu verwalten und Änderungen nachzuverfolgen. Durch GitHub Actions wird unsere Seite
+                automatisch aktualisiert (Azure), wenn Änderungen gepusht werden. GitHub hat uns geholfen, effizient
+                zusammenzuarbeiten und nie arbeit zu verlieren.</p>
+        </div>
+
+        <hr>
+        <div class="section">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.30/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/4B3KjL-VhvpPNWGs/scene.splinecode"></spline-viewer>
+            <h3>Spline</h3>
+            <p>Spline ist ein Design-Tool, und bietet sich an da es sich einfach einbetten lässt um 3D modelle zu
+                zeigen</p>
+        </div>
+
+        <button onclick="location.href='/index.html'">Zum Projekt</button>
+    </div>
+</body>
+
+</html>

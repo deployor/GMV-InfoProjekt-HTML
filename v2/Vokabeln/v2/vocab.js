@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   let currentIndex = 0;
-  let currentLanguage = "english-to-german"; // Default language direction
+  let currentLanguage = "english-to-german";
   let incorrectWords = [];
   let correctCount = 0;
   const totalWords = wordList.length;
@@ -68,11 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const retryBtn = document.getElementById("retry-btn");
   const backToSelectionBtn = document.getElementById("back-to-selection-btn");
 
-  // Initialize confetti
   const confettiCanvas = document.getElementById("confetti-canvas");
 
-  // Cheat mode variable
-  let cheatMode = true; // Set this to true to skip to the end
+  // Cheatttttt
+  let cheatMode = true; 
 
   function celebrateCorrectAnswer() {
     if (confetti) {
@@ -283,6 +282,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadWord();
   });
 
-  // Load the first word initially
   loadWord();
 });
