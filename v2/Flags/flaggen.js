@@ -5,7 +5,7 @@ const maxRounds = 10;
 
 async function startQuiz(difficulty) {
   const populationsDiffictultyHelpSpellingIsHard = {
-    eassyyyy: [130000000, 9999900000],
+    eassyyyy: [130000000, 122333444455555666666777777788888888999999999],
     mediumRare: [10000000, 50000000],
     wellDone: [500000, 10000000],
   };

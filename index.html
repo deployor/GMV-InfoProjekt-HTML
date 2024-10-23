@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3934114095507086"
-    crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Willkommen</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function() { // wartet bis die seite geladen ist-> dann wird der code ausgeführt
+        if (!document.cookie.includes("firstTimeBeingHere=true")) { // "!" bedeutzet nichts anders als NICHT. also wenn NICHT firstTimeBeingHere=true
+          document.cookie = "firstTimeBeingHere=true; path=/"; // setzt den cookie firstTimeBeingHere=true mit dem pfad / also ALLE seiten.
+          window.location.href = "welcome.html";
+        }
+      });
+    </script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
+          <li><a href="welcome.html">Einführung</a></li>
           <li><a href="idee.html">Die Idee</a></li>
           <li><a href="code.html">Der Code</a></li>
-          <li><a href="data.html">Datenschutz</a></li>
+          <li><a href="data.html">Datenschutzerklärung</a></li>
         </ul>
       </nav>
       
@@ -30,6 +37,7 @@
         </p>
         <div class="buttons">
           <a href="Animation.html" class="btn">START</a>
+          <a href="Animation.html" class="btn">Prototyp</a>
         </div>
       </div>
     </main>
