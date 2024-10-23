@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3934114095507086"
-     crossorigin="anonymous"></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flageeennnnnnnn</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <script src="flag.js"></script>
-      <h1>Flaggen Quiz</h1>
-      <div id="difficulty-selection">
-        <button onclick="startQuiz('easy')">Einfach</button>
-        <button onclick="startQuiz('medium')">Mittel</button>
-        <button onclick="startQuiz('hard')">Schwer</button>
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3934114095507086"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flageeennnnnnnn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <script src="flaggen.js"></script>
+    <h1>Flaggen - Quiz 🚩</h1>
+    <div id="difficulty-selection">
+      <button onclick="startQuiz('eassyyyy')">Einfach</button>
+      <button onclick="startQuiz('mediumRare')">Mittel</button>
+      <button onclick="startQuiz('wellDone')">Schwer</button>
+    </div>
+    <div id="quiz-container" class="hidden">
+      <div id="flag-container">
+        <img id="flag" alt="Country Flag" />
       </div>
-      <div id="quiz-container" class="hidden">
-        <div id="flag-container">
-          <img id="flag" alt="Country Flag" />
-        </div>
-        <div id="country-info" class="hidden">
-          <h2 id="country-name"></h2>
-        </div>
-        <div id="controls">
-          <input
-            type="text"
-            id="answer-input"
-            placeholder="Antowort eingeben"
-          />
-          <button id="submit-btn" onclick="submitAnswer()">Senden</button>
-          <button id="next-btn" class="hidden" onclick="nextFlag()">
-            Nächste flagge
-          </button>
-        </div>
-        </div>
+      <div id="country-info" class="hidden">
+        <h2 id="country-name"></h2>
       </div>
-      <div id="result" class="hidden">
-        <h2 id="result-message"></h2>
+      <div id="controls">
+        <input type="text" id="answer-input" placeholder="Antowort eingeben" />
+        <button id="submit-btn" onclick="sendAnwaser()">Senden</button>
+        <button id="next-btn" class="hidden" onclick="nextFlag()">
+          Nächste flagge
+        </button>
       </div>
-  </body>
+    </div>
+    <div id="result" class="hidden">
+      <h2 id="result-message"></h2>
+    </div>
+  </div>
+</body>
 </html>

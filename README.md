@@ -14,7 +14,7 @@ Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri un
 
 Das Projekt startete mit der Idee, ein Labyrinth aus Fragen zu erstellen, durch das man sich durch Klicken navigieren kann. Es basiert auf früheren Projekten. Da wir wieder etwas Interaktiveres machen wollten, stellte HTML, das statisch ist, eine Herausforderung dar.
 
-## Toools 🛠️
+## Tools 🛠️
 
 - **HTML**: Strukturierung der Webseiteninhalte.
 - **CSS**: Gestaltung und Layout der Webseite.
