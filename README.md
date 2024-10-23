@@ -7,7 +7,7 @@ Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri un
 ## Inhaltsverzeichnis 📑
 
 - [Über das Projekt](#Über-das-Projekt-📖)
-- [Toools](#Toools-🛠️)
+- [Tools](#Tools-🛠️)
 - [Wie sieht man das Projekt](#Azure-☁️)
 
 ## Über das Projekt 📖
