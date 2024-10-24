@@ -13,6 +13,7 @@ Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri un
 ## Über das Projekt 📖
 
 Das Projekt startete mit der Idee, ein Labyrinth aus Fragen zu erstellen, durch das man sich durch Klicken navigieren kann. Es basiert auf früheren Projekten. Da wir wieder etwas Interaktiveres machen wollten, stellte HTML, das statisch ist, eine Herausforderung dar.
+Wenn du mehr über das tolle Projekt erfahren möchtest, dann schau doch einfach mal hier vorbei: [Link](https://hdf.tf/welcome.html)
 
 ## Tools 🛠️
 
@@ -26,3 +27,4 @@ Das Projekt startete mit der Idee, ein Labyrinth aus Fragen zu erstellen, durch 
 Das Projekt kann man immer unter diesem [Link](https://hdf.tf/) sehen, es läuft auf Azure!
 
 Viel spaß beim testen!
+
