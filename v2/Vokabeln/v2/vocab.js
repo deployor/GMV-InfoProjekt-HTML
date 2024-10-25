@@ -67,10 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const retryBtn = document.getElementById("retry-btn");
   const backToSelectionBtn = document.getElementById("back-to-selection-btn");
 
-  const confettiCanvas = document.getElementById("confetti-canvas");
-
   // Cheatttttt
-  let cheatMode = false; 
+  let cheatMode = true;
 
   function celebrateCorrectAnswer() {
     if (confetti) {
