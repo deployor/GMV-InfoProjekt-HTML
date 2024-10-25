@@ -6,7 +6,6 @@
 
 Hey! Willkommen zu unserem Info Projekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt, die ein interaktives Frage-Labyrinth bietet. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr es ausprobieren könnt.
 
----
 
 ## Inhaltsverzeichnis 📑
 
@@ -14,7 +13,6 @@ Hey! Willkommen zu unserem Info Projekt. Wir – Tom, Leon, Henri und James – 
 2. [Tools und Technologien](#Tools-🛠️)
 3. [Wie kann man das Projekt ansehen](#Wie-kann-man-das-Projekt-sehen-☁️)
 
----
 
 ## Über das Projekt 📖
 
@@ -24,7 +22,6 @@ Es basiert auf einer ähnlichen Projektidee, die wir bereits früher umgesetzt h
 
 Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübersicht](https://hdf.tf/welcome.html)
 
----
 
 ## Tools und Technologien 🛠️
 
@@ -35,13 +32,11 @@ Für unser Projekt haben wir folgende Technologien verwendet:
 - **JavaScript**: Um die Interaktivität und Logik des Labyrinths umzusetzen.
 - **Azure**: Wir nutzen Azure, um das Projekt online verfügbar zu machen.
 
----
 
 ## Wie kann man das Projekt sehen ☁️
 
 Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst ausprobieren:  
 👉 [Zur Webseite](https://hdf.tf/)
 
----
 
 Viel Spaß beim Ausprobieren! 😊
