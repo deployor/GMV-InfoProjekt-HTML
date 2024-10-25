@@ -87,3 +87,10 @@ hr {
 .section {
   text-align: center;
 }
+
+.banner {
+  width: auto;
+  height: 30vh;
+  margin-bottom: 10px;
+  border-radius: 3vh;
+}
