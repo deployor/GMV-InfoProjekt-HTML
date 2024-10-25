@@ -23,4 +23,4 @@ Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübe
 
 Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst ausprobieren: [Zur Webseite](https://hdf.tf/)
 
-Viel Spaß beim Ausprobieren! ♥️
+*Viel Spaß beim Ausprobieren! ♥️*
