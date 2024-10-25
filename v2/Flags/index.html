@@ -7,13 +7,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Flageeennnnnnnn</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="container">
     <script src="flaggen.js"></script>
-    <h1>Flaggen - Quiz 🏳️</h1>
+    <h1>Flaggen - Quiz 👀</h1>
+    <p>Du gewinnst bei über 7 richtigen aus 10 flaggen!</p>
     <div id="difficulty-selection">
       <button onclick="startQuiz('eassyyyy')">Einfach</button>
       <button onclick="startQuiz('mediumRare')">Mittel</button>
@@ -27,8 +28,8 @@
         <h2 id="country-name"></h2>
       </div>
       <div id="controls">
-        <input type="text" id="answer-input" placeholder="Antowort eingeben" />
-        <button id="submit-btn" onclick="sendAnwaser()">Senden</button>
+        <input type="text" id="answer-input" placeholder="Flagge" />
+        <button id="submit-btn" onclick="sendAnwaser()">Richtig?</button>
         <button id="next-btn" class="hidden" onclick="nextFlag()">
           Nächste flagge
         </button>

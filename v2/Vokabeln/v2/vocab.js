@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
       french: ["Non"],
       latin: ["Non"],
     },
-    // Add more words here
   ];
 
   let currentIndex = 0;
@@ -71,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const confettiCanvas = document.getElementById("confetti-canvas");
 
   // Cheatttttt
-  let cheatMode = true; 
+  let cheatMode = false; 
 
   function celebrateCorrectAnswer() {
     if (confetti) {
