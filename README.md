@@ -1,30 +1,47 @@
 # Info Projekt 🚀
 
+![Vorschau](https://i.imgur.com/y3kmOCN.png)
+
 ## Info Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
 
-Willkommen zu unserem Info Projekt! Dieses Projekt wurde von Tom, Leon, Henri und James erstellt. Hier finden Sie alle notwendigen Informationen, um unser Projekt zu verstehen und zu nutzen.
+Hey! Willkommen zu unserem Info Projekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt, die ein interaktives Frage-Labyrinth bietet. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr es ausprobieren könnt.
+
+---
 
 ## Inhaltsverzeichnis 📑
 
-- [Über das Projekt](#Über-das-Projekt-📖)
-- [Tools](#Tools-🛠️)
-- [Wie sieht man das Projekt](#Azure-☁️)
+1. [Über das Projekt](#Über-das-Projekt-📖)
+2. [Tools und Technologien](#Tools-🛠️)
+3. [Wie kann man das Projekt ansehen](#Wie-kann-man-das-Projekt-sehen-☁️)
+
+---
 
 ## Über das Projekt 📖
 
-Das Projekt startete mit der Idee, ein Labyrinth aus Fragen zu erstellen, durch das man sich durch Klicken navigieren kann. Es basiert auf früheren Projekten. Da wir wieder etwas Interaktiveres machen wollten, stellte HTML, das statisch ist, eine Herausforderung dar.
-Wenn du mehr über das tolle Projekt erfahren möchtest, dann schau doch einfach mal hier vorbei: [Link](https://hdf.tf/welcome.html)
+Wir hatten die Idee, ein Labyrinth aus Fragen zu bauen, durch das man sich durch Klicken durcharbeiten kann. Dabei war es uns wichtig, etwas Interaktives zu schaffen, obwohl HTML eher für statische Seiten gedacht ist. Mithilfe von JavaScript konnten wir das Ganze lebendiger gestalten.
 
-## Tools 🛠️
+Es basiert auf einer ähnlichen Projektidee, die wir bereits früher umgesetzt haben. Diesmal wollten wir aber etwas Neues und Anspruchsvolleres entwickeln.
 
-- **HTML**: Strukturierung der Webseiteninhalte.
-- **CSS**: Gestaltung und Layout der Webseite.
-- **JavaScript**: Interaktive Elemente und Logik.
-- **Azure**: Hosting und Bereitstellung der Webseite.
+Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübersicht](https://hdf.tf/welcome.html)
 
-## Azure ☁️
+---
 
-Das Projekt kann man immer unter diesem [Link](https://hdf.tf/) sehen, es läuft auf Azure!
+## Tools und Technologien 🛠️
 
-Viel spaß beim testen!
+Für unser Projekt haben wir folgende Technologien verwendet:
 
+- **HTML**: Die Basisstruktur unserer Webseite.
+- **CSS**: Für das Design und das Layout.
+- **JavaScript**: Um die Interaktivität und Logik des Labyrinths umzusetzen.
+- **Azure**: Wir nutzen Azure, um das Projekt online verfügbar zu machen.
+
+---
+
+## Wie kann man das Projekt sehen ☁️
+
+Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst ausprobieren:  
+👉 [Zur Webseite](https://hdf.tf/)
+
+---
+
+Viel Spaß beim Ausprobieren! 😊
