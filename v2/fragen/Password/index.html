@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Passwort Zurücksetzen</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <header>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<main>
+    <header>
         <h1>
-          Erfolgreich Sicherheitsfragen beantwortet! <br />
-          <br />
-          Passwort Zurücksetzen
+            Erfolgreich Sicherheitsfragen beantwortet! <br/>
+            <br/>
+            Passwort Zurücksetzen
         </h1>
-      </header>
-      <div class="container">
+    </header>
+    <div class="container">
         <form class="reset-form">
-          <label for="password" class="form-label">Neues Passwort:</label>
-          <input
-            type="password"
-            id="password"
-            class="form-input"
-            placeholder="Neues Passwort"
-            required
-          />
+            <label class="form-label" for="password">Neues Passwort:</label>
+            <input
+                    class="form-input"
+                    id="password"
+                    placeholder="Neues Passwort"
+                    required
+                    type="password"
+            />
 
-          <label for="confirm-password" class="form-label"
+            <label class="form-label" for="confirm-password"
             >Passwort bestätigen:</label
-          >
-          <input
-            type="password"
-            id="confirm-password"
-            class="form-input"
-            placeholder="Passwort bestätigen"
-            required
-          />
+            >
+            <input
+                    class="form-input"
+                    id="confirm-password"
+                    placeholder="Passwort bestätigen"
+                    required
+                    type="password"
+            />
 
-          <button type="button" class="btn" onclick="checkPasswords()">
-            Weiter
-          </button>
+            <button class="btn" onclick="checkPasswords()" type="button">
+                Weiter
+            </button>
 
-          <p id="message" class="message"></p>
+            <p class="message" id="message"></p>
         </form>
-      </div>
-    </main>
+    </div>
+</main>
 
 
-    <script src="pass.js"></script>
-    </body>
-  </body>
+<script src="pass.js"></script>
+</body>
+</body>
 </html>

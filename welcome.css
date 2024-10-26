@@ -1,96 +1,96 @@
 body {
-  margin: 0;
-  padding: 20px;
-  font-family: "Arial", sans-serif;
-  background-color: #20243a;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #20243a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .container {
-  text-align: center;
-  background-color: #34495ee6;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  max-width: 800px;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-y: auto;
-  max-height: calc(100vh - 40px);
+    text-align: center;
+    background-color: #34495ee6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
 }
 
 h1 {
-  color: #ecf0f1;
+    color: #ecf0f1;
 }
 
 h2 {
-  color: #c5c5c5;
+    color: #c5c5c5;
 }
 
 h3 {
-  color: #ecf0f1;
-  margin-top: 20px;
+    color: #ecf0f1;
+    margin-top: 20px;
 }
 
 p,
 ul {
-  margin: 20px 0;
-  font-size: 1.2em;
-  text-align: left;
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: left;
 }
 
 a {
-  color: #03dac6;
-  text-decoration: none;
+    color: #03dac6;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 button {
-  background-color: #ff0000;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  transition: transform 0.2s, background-color 0.3s;
-  width: 100%;
-  max-width: 200px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    width: 100%;
+    max-width: 200px;
 }
 
 button:hover {
-  background-color: #00d312;
-  transform: scale(1.05);
+    background-color: #00d312;
+    transform: scale(1.05);
 }
 
 .logo {
-  width: auto;
-  height: 128px;
-  margin-bottom: 10px;
+    width: auto;
+    height: 128px;
+    margin-bottom: 10px;
 }
 
 hr {
-  border: 1px solid #000000;
-  margin: 20px 0;
+    border: 1px solid #000000;
+    margin: 20px 0;
 }
 
 .section {
-  text-align: center;
+    text-align: center;
 }
 
 .banner {
-  width: auto;
-  height: 30vh;
-  margin-bottom: 10px;
-  border-radius: 3vh;
+    width: auto;
+    height: 30vh;
+    margin-bottom: 10px;
+    border-radius: 3vh;
 }
