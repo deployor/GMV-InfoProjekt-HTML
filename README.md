@@ -1,6 +1,6 @@
 # Info Projekt 🚀
 
-![Vorschau](https://i.imgur.com/MVpOA9N.png)
+![Banner](https://i.imgur.com/MVpOA9N.png)
 
 ## Info Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
 
@@ -10,8 +10,8 @@ ausprobieren könnt.
 
 ## Inhaltsverzeichnis 📑
 
-1. [Über das Projekt 📖](#Über-das-Projekt-📖)
-2. [Wie kann man das Projekt ansehen ☁️](#Wie-kann-man-das-Projekt-sehen-☁️)
+1. [Über das Projekt 📖](#über-das-projekt-)
+2. [Wie kann man das Projekt ansehen ☁️](#wie-kann-man-das-projekt-sehen-)
 
 ## Über das Projekt 📖
 
