@@ -34,7 +34,6 @@
     }
 
     async function addPost() {
-        // adds a post to supabase
         const username = document.querySelector(".username-input").value.trim(); // get the username / name inputted
         const content = document.querySelector(".comments-input").value.trim(); // get the comment inputted
 

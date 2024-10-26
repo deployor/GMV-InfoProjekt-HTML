@@ -2,9 +2,9 @@
 
 ![Banner](https://i.imgur.com/MVpOA9N.png)
 
-## Info Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
+## Informatik Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
 
-Hey! Willkommen zu unserem Info Projekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt, die
+Hey! Willkommen zu unserem Informatikprojekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt, die
 ein interaktives Frage-Labyrinth bietet. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr es
 ausprobieren könnt.
 
@@ -27,6 +27,6 @@ Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübe
 ## Wie kann man das Projekt sehen ☁️
 
 Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst
-ausprobieren: [Zur Webseite](https://hdf.tf/)
+ausprobieren: [zur Webseite](https://hdf.tf/)
 
 *Viel Spaß beim Ausprobieren! ♥️*

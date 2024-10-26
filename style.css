@@ -144,7 +144,7 @@ li {
     margin-left: 20px;
 }
 
-/* Wilkommen Animation */
+/* Willkommen Animation */
 .welcome-heading {
     animation: welcome-animation 5s linear 0s infinite alternate;
 }
