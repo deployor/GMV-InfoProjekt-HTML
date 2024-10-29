@@ -102,6 +102,29 @@ h2 {
     transform: scale(1.05);
 }
 
+.antwort-knopf2,
+.post-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.antwort-knopf2:hover,
+.post-button:hover {
+    background-color: #00d312;
+    transform: scale(1.05);
+}
+
 .frage-bild,
 .falsch-bild {
     width: 100%;
