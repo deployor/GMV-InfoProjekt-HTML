@@ -1,218 +1,315 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: "Arial", sans-serif;
-  background-color: #20243a;
-  color: #ecf0f1;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", sans-serif;
+    background-color: #20243a;
+    color: #ecf0f1;
+    text-align: center;
 }
 
 main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 header {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h1 {
-  animation: leon1 5s linear 0s infinite alternate;
-  font-size: 2.5rem;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+    animation: leon1 5s linear 0s infinite alternate;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 p {
-  animation: leon1 5s linear 0s infinite alternate;
-  font-size: 1.2rem;
-  color: #bdc3c7;
+    animation: leon1 5s linear 0s infinite alternate;
+    font-size: 1.2rem;
+    color: #bdc3c7;
 }
 
 .frage,
 .falsch,
 .comments-forum {
-  background: #34495ee6;
-  padding: 20px;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 500px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin: 20px auto;
+    background: #34495ee6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
 }
 
 .frage {
-  animation: einblenden 1s ease-out;
+    animation: einblenden 1s ease-out;
 }
+
 @keyframes einblenden {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 h2 {
-  animation: leon1 5s linear 0s infinite alternate;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+    animation: leon1 5s linear 0s infinite alternate;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
 
 .antworten {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .antwort-knopf,
 .post-button {
-  background-color: #ff0000;
-  color: #fff;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform 0.2s, background-color 0.3s;
-  text-align: center;
-  display: block;
-  width: 100%;
-  max-width: 500px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 500px;
 }
+
+
 
 .antwort-knopf:hover,
 .post-button:hover {
-  background-color: #00d312;
-  transform: scale(1.05);
+    background-color: #00d312;
+    transform: scale(1.05);
+}
+.antworten2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.antwort-knopf2,
+.post-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 400px;
 }
 
+.antwort-knopf2:hover,
+.post-button:hover {
+    background-color: #00d312;
+    transform: scale(1.05);
+}
+.antwort-knopf3,
+.post-button {
+    background-color: #ffa600;
+    color: #ffffff;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.antwort-knopf3:hover,
+.post-button:hover {
+    background-color: #00d312;
+    transform: scale(1.05);
+}
+.antwort-knopf4,
+.post-button {
+    background-color: #25b301;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 250px;
+}
+
+.antwort-knopf4:hover,
+.post-button:hover {
+    background-color: #035203;
+    transform: scale(1.05);
+}
+.antwort-knopf5,
+.post-button {
+    background-color: #0148b3;
+    color: #ffffff;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+}
+
+.antwort-knopf5:hover,
+.post-button:hover {
+    background-color: #035203;
+    transform: scale(1.05);
+}
 .frage-bild,
 .falsch-bild {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 footer {
-  background: #19242e;
-  color: #95a5a6;
-  padding: 5px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  font-size: 0.8rem;
+    background: #19242e;
+    color: #95a5a6;
+    padding: 5px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
 }
 
 @media (max-width: 600px) {
-  .frage,
-  .comments-forum {
-    width: 95%;
-  }
+    .frage,
+    .comments-forum {
+        width: 95%;
+    }
 
-  h1 {
-    font-size: 2rem;
-  }
+    h1 {
+        font-size: 2rem;
+    }
 
-  h2 {
-    font-size: 1.5rem;
-  }
+    h2 {
+        font-size: 1.5rem;
+    }
 
-  .post-button {
-    font-size: 0.9rem;
-  }
+    .post-button {
+        font-size: 0.9rem;
+    }
 }
 
 .comments-thread {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .post {
-  background: #2c3e50;
+    background: #2c3e50;
 
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
 }
 
 .post h3 {
-  margin: 10px;
-  color: #ecf0f1;
+    margin: 10px;
+    color: #ecf0f1;
 }
 
 .post p {
-  margin: 0;
-  color: #ecf0f1;
+    margin: 0;
+    color: #ecf0f1;
 }
 
 .username-input,
 .comments-input {
-  width: calc(100% - 22px);
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-top: 10px;
-  font-size: 1rem;
-  background: #34495ee6;
-  color: #ecf0f1;
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    background: #34495ee6;
+    color: #ecf0f1;
 }
+
 .Leon {
-  font-size: 1.2rem;
-  background: none;
-  text-decoration: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  width: 100%;
+    font-size: 1.2rem;
+    background: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
 
-  color: #bdc3c7;
+    color: #bdc3c7;
 
-  animation: leon1 5s linear 0s infinite alternate;
+    animation: leon1 5s linear 0s infinite alternate;
 }
 
 @keyframes leon1 {
-  0% {
-    color: blue;
-  }
-  50% {
-    color: red;
-  }
-  100% {
-    color: yellow;
-  }
+    0% {
+        color: blue;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
 }
+
 @keyframes leon {
-  0% {
-    background-color: blue;
-  }
-  50% {
-    background-color: red;
-  }
-  100% {
-    background-color: yellow;
-  }
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: yellow;
+    }
 }

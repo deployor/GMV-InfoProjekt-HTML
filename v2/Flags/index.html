@@ -2,43 +2,42 @@
 <html lang="en">
 
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3934114095507086"
-    crossorigin="anonymous"></script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flageeennnnnnnn</title>
-  <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Flageeennnnnnnn</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <script src="flaggen.js"></script>
     <h1>Flaggen - Quiz 👀</h1>
-    <p>Du gewinnst bei über 7 richtigen aus 10 flaggen!</p>
+    <p>Du gewinnst bei über 7 Richtigen aus 10 flaggen!</p>
     <div id="difficulty-selection">
-      <button onclick="startQuiz('eassyyyy')">Einfach</button>
-      <button onclick="startQuiz('mediumRare')">Mittel</button>
-      <button onclick="startQuiz('wellDone')">Schwer</button>
+        <button onclick="startQuiz('eassyyyy')">Einfach</button>
+        <button onclick="startQuiz('mediumRare')">Mittel</button>
+        <button onclick="startQuiz('wellDone')">Schwer</button>
     </div>
-    <div id="quiz-container" class="hidden">
-      <div id="flag-container">
-        <img id="flag" alt="Country Flag" />
-      </div>
-      <div id="country-info" class="hidden">
-        <h2 id="country-name"></h2>
-      </div>
-      <div id="controls">
-        <input type="text" id="answer-input" placeholder="Flagge" />
-        <button id="submit-btn" onclick="sendAnwaser()">Richtig?</button>
-        <button id="next-btn" class="hidden" onclick="nextFlag()">
-          Nächste flagge
-        </button>
-      </div>
+    <div class="hidden" id="quiz-container">
+        <div id="flag-container">
+            <img alt="Country Flag" id="flag"/>
+        </div>
+        <div class="hidden" id="country-info">
+            <h2 id="country-name"></h2>
+        </div>
+        <div id="controls">
+            <input id="answer-input" placeholder="Flagge" type="text"/>
+            <button id="submit-btn" onclick="sendAnwaser()">Richtig?</button>
+            <button class="hidden" id="next-btn" onclick="nextFlag()">
+                Nächste flagge
+            </button>
+        </div>
     </div>
-    <div id="result" class="hidden">
-      <h2 id="result-message"></h2>
+    <div class="hidden" id="result">
+        <h2 id="result-message"></h2>
     </div>
-  </div>
+</div>
 </body>
 
 </html>

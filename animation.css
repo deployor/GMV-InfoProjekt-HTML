@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+    overflow: hidden;
     height: 100%;
     margin: 0;
     display: flex;
@@ -8,2626 +8,4744 @@ body {
     background-color: #20243a;
     color: #ecf0f1;
     text-align: center;
-  }
-  .GMV{
-    height: 10px;
-    width: 10px;
-    background-color: #20243a ;
-    animation: GMV 5s linear 0s   1 forwards  normal ;
-    position: relative;
-  }
-  @keyframes GMV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top: 180px; left: 90px ;background-color:black}
-  }
-  .GMV1{
+}
+
+.GMV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV1 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV1{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: 110px; left: 100px;background-color:black}
-  }
-  .GMV1w{
+}
+
+@keyframes GMV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: 180px;
+        left: 90px;
+        background-color: black
+    }
+}
+
+.GMV1 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV1w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV1 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV1w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: 110px; left: 100px;background-color:rgb(255, 255, 255)}
-  }
- 
-  .GMV2{
+}
+
+@keyframes GMV1 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: 110px;
+        left: 100px;
+        background-color: black
+    }
+}
+
+.GMV1w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV2 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV1w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV2{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: 30px; left: 110px;background-color:black}
-  }
-  .GMV2w{
+}
+
+@keyframes GMV1w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: 110px;
+        left: 100px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV2 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV2w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV2 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV2w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: 30px; left: 110px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV3{
+}
+
+@keyframes GMV2 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: 30px;
+        left: 110px;
+        background-color: black
+    }
+}
+
+.GMV2w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV3 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV2w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV3{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -60px; left: 120px;background-color:black}
-  }
-  .GMV3w{
+}
+
+@keyframes GMV2w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: 30px;
+        left: 110px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV3 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV3w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV3 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV3w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -60px; left: 120px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV4{
+}
+
+@keyframes GMV3 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -60px;
+        left: 120px;
+        background-color: black
+    }
+}
+
+.GMV3w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV4 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV3w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV4{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -150px; left: 130px;background-color:black}
-  }
-  .GMV4w{
+}
+
+@keyframes GMV3w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -60px;
+        left: 120px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV4 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV4w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV4 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV4w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -150px; left: 130px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV5{
+}
+
+@keyframes GMV4 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -150px;
+        left: 130px;
+        background-color: black
+    }
+}
+
+.GMV4w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV5 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV4w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV5{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -240px; left: 140px;background-color:black}
-  }
-  .GMV5w{
+}
+
+@keyframes GMV4w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -150px;
+        left: 130px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV5 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV5w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV5 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV5w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -240px; left: 140px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV6{
+}
+
+@keyframes GMV5 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -240px;
+        left: 140px;
+        background-color: black
+    }
+}
+
+.GMV5w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV6 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV5w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV6{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -330px; left: 150px;background-color:black}
-  }
-  .GMV6w{
+}
+
+@keyframes GMV5w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -240px;
+        left: 140px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV6 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV6w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV6 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV6w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -330px; left: 150px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV7{
+}
+
+@keyframes GMV6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -330px;
+        left: 150px;
+        background-color: black
+    }
+}
+
+.GMV6w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV7 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV6w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV7{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -410px; left: 160px;background-color:black}
-  }
-  .GMV7w{
+}
+
+@keyframes GMV6w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -330px;
+        left: 150px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV7 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV7w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV7 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV7w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -4100px; left: 160px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV8{
+}
+
+@keyframes GMV7 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -410px;
+        left: 160px;
+        background-color: black
+    }
+}
+
+.GMV7w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV8 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV7w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV8{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -480px; left: 170px;background-color:black}
-  }
-  .GMV8w{
+}
+
+@keyframes GMV7w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4100px;
+        left: 160px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV8 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV8w 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV8 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV8w{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -480px; left: 170px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV9M{
+}
+
+@keyframes GMV8 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -480px;
+        left: 170px;
+        background-color: black
+    }
+}
+
+.GMV8w {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV9M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV8w 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV9M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -570px; left: 200px;background-color:black}
-  }
-  .GMV9wM{
+}
+
+@keyframes GMV8w {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -480px;
+        left: 170px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV9M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV9wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV9M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV9wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -570px; left: 200px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV10M{
+}
+
+@keyframes GMV9M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -570px;
+        left: 200px;
+        background-color: black
+    }
+}
+
+.GMV9wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV10M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV9wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV10M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -650px; left: 210px;background-color:black}
-  }
-  .GMV10wM{
+}
+
+@keyframes GMV9wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -570px;
+        left: 200px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV10M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV10wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV10M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV10wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -650px; left: 210px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV11M{
+}
+
+@keyframes GMV10M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -650px;
+        left: 210px;
+        background-color: black
+    }
+}
+
+.GMV10wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV11M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV10wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV11M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -740px; left: 220px;background-color:black}
-  }
-  .GMV11wM{
+}
+
+@keyframes GMV10wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -650px;
+        left: 210px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV11M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV11wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV11M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV11wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -740px; left: 220px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV12M{
+}
+
+@keyframes GMV11M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -740px;
+        left: 220px;
+        background-color: black
+    }
+}
+
+.GMV11wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV12M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV11wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV12M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -830px; left: 230px;background-color:black}
-  }
-  .GMV12wM{
+}
+
+@keyframes GMV11wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -740px;
+        left: 220px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV12M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV12wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV12M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV12wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -830px; left: 230px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV13M{
+}
+
+@keyframes GMV12M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -830px;
+        left: 230px;
+        background-color: black
+    }
+}
+
+.GMV12wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV13M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV12wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV13M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -920px; left: 240px;background-color:black}
-  }
-  .GMV13wM{
+}
+
+@keyframes GMV12wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -830px;
+        left: 230px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV13M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV13wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV13M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV13wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -920px; left: 240px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV14M{
+}
+
+@keyframes GMV13M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -920px;
+        left: 240px;
+        background-color: black
+    }
+}
+
+.GMV13wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV14M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV13wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV14M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -990px; left: 250px;background-color:black}
-  }
-  .GMV14wM{
+}
+
+@keyframes GMV13wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -920px;
+        left: 240px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV14M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV14wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV14M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV14wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -990px; left: 250px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV15M{
+}
+
+@keyframes GMV14M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -990px;
+        left: 250px;
+        background-color: black
+    }
+}
+
+.GMV14wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV15M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV14wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV15M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1070px; left: 260px;background-color:black}
-  }
-  .GMV15wM{
+}
+
+@keyframes GMV14wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -990px;
+        left: 250px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV15M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV15wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV15M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV15wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1070px; left: 260px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV16M{
+}
+
+@keyframes GMV15M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1070px;
+        left: 260px;
+        background-color: black
+    }
+}
+
+.GMV15wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV16M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV15wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV16M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1160px; left: 270px;background-color:black}
-  }
-  .GMV16wM{
+}
+
+@keyframes GMV15wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1070px;
+        left: 260px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV16M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV16wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV16M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV16wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1160px; left: 270px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV17M{
+}
+
+@keyframes GMV16M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1160px;
+        left: 270px;
+        background-color: black
+    }
+}
+
+.GMV16wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV17M 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV16wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV17M{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1240px; left: 280px;background-color:black}
-  }
-  .GMV17wM{
+}
+
+@keyframes GMV16wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1160px;
+        left: 270px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV17M {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV17wM 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV17M 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV17wM{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1240px; left: 280px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV18V{
+}
+
+@keyframes GMV17M {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1240px;
+        left: 280px;
+        background-color: black
+    }
+}
+
+.GMV17wM {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV18V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV17wM 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV18V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1330px; left: 310px;background-color:black}
-  }
-  .GMV18wV{
+}
+
+@keyframes GMV17wM {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1240px;
+        left: 280px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV18V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV18wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV18V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV18wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1330px; left: 310px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV19V{
+}
+
+@keyframes GMV18V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1330px;
+        left: 310px;
+        background-color: black
+    }
+}
+
+.GMV18wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV19V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV18wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV19V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1390px; left: 320px;background-color:black}
-  }
-  .GMV19wV{
+}
+
+@keyframes GMV18wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1330px;
+        left: 310px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV19V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV19wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV19V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV19wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1390px; left: 320px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV20V{
+}
+
+@keyframes GMV19V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1390px;
+        left: 320px;
+        background-color: black
+    }
+}
+
+.GMV19wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV20V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV19wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV20V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1460px; left: 330px;background-color:black}
-  }
-  .GMV20wV{
+}
+
+@keyframes GMV19wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1390px;
+        left: 320px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV20V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV20wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV20V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV20wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1460px; left: 330px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV21V{
+}
+
+@keyframes GMV20V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1460px;
+        left: 330px;
+        background-color: black
+    }
+}
+
+.GMV20wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV21V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV20wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV21V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1540px; left: 340px;background-color:black}
-  }
-  .GMV21wV{
+}
+
+@keyframes GMV20wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1460px;
+        left: 330px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV21V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV21wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV21V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV21wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1540px; left: 340px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV22V{
+}
+
+@keyframes GMV21V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1540px;
+        left: 340px;
+        background-color: black
+    }
+}
+
+.GMV21wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV22V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV21wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV22V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1630px; left: 350px;background-color:black}
-  }
-  .GMV22wV{
+}
+
+@keyframes GMV21wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1540px;
+        left: 340px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV22V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV22wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV22V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV22wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1630px; left: 350px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV23V{
+}
+
+@keyframes GMV22V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1630px;
+        left: 350px;
+        background-color: black
+    }
+}
+
+.GMV22wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV23V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV22wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV23V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1720px; left: 360px;background-color:black}
-  }
-  .GMV23wV{
+}
+
+@keyframes GMV22wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1630px;
+        left: 350px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV23V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV23wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV23V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV23wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1720px; left: 360px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV24V{
+}
+
+@keyframes GMV23V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1720px;
+        left: 360px;
+        background-color: black
+    }
+}
+
+.GMV23wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV24V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV23wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV24V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1810px; left: 370px;background-color:black}
-  }
-  .GMV24wV{
+}
+
+@keyframes GMV23wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1720px;
+        left: 360px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV24V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV24wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV24V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV24wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1810px; left: 370px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV25V{
+}
+
+@keyframes GMV24V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1810px;
+        left: 370px;
+        background-color: black
+    }
+}
+
+.GMV24wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV25V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV24wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV25V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1900px; left: 380px;background-color:black}
-  }
-  .GMV25wV{
+}
+
+@keyframes GMV24wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1810px;
+        left: 370px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV25V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV25wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV25V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV25wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1900px; left: 380px;background-color:rgb(255, 255, 255)}
-  }
-  .GMV26V{
+}
+
+@keyframes GMV25V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1900px;
+        left: 380px;
+        background-color: black
+    }
+}
+
+.GMV25wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV26V 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV25wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV26V{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -1970px; left: 390px; background-color:black}
-  }
-  .GMV26wV{
+}
+
+@keyframes GMV25wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1900px;
+        left: 380px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.GMV26V {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: GMV26wV 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV26V 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes GMV26wV{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -1970px; left: 390px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt{
+}
+
+@keyframes GMV26V {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1970px;
+        left: 390px;
+        background-color: black
+    }
+}
+
+.GMV26wV {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: GMV26wV 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2010px; left: 420px; background-color:black}
-  }
-  .BiStw{
+}
+
+@keyframes GMV26wV {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -1970px;
+        left: 390px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2010px; left: 420px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt1{
+}
+
+@keyframes BiSt {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2010px;
+        left: 420px;
+        background-color: black
+    }
+}
+
+.BiStw {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt1 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt1{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2040px; left: 430px; background-color:black}
-  }
-  .BiStw1{
+}
+
+/*bindestrich*/
+@keyframes BiStw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2010px;
+        left: 420px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt1 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw1 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt1 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw1{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2040px; left: 430px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt2{
+}
+
+@keyframes BiSt1 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2040px;
+        left: 430px;
+        background-color: black
+    }
+}
+
+.BiStw1 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt2 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw1 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt2{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2080px; left: 440px; background-color:black}
-  }
-  .BiStw2{
+}
+
+/*bindestrich*/
+@keyframes BiStw1 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2040px;
+        left: 430px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt2 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw2 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt2 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw2{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2080px; left: 440px;background-color:rgb(255, 255, 255)}
-  }
- 
-  .BiSt3{
+}
+
+@keyframes BiSt2 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2080px;
+        left: 440px;
+        background-color: black
+    }
+}
+
+.BiStw2 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt3 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw2 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt3{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2120px; left: 450px; background-color:black}
-  }
-  .BiStw3{
+}
+
+/*bindestrich*/
+@keyframes BiStw2 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2080px;
+        left: 440px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt3 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw3 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt3 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw3{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2120px; left: 450px;background-color:rgb(255, 255, 255)}
-  }
- 
-  .BiSt4{
+}
+
+@keyframes BiSt3 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2120px;
+        left: 450px;
+        background-color: black
+    }
+}
+
+.BiStw3 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt4 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw3 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt4{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2160px; left: 460px; background-color:black}
-  }
-  .BiStw4{
+}
+
+/*bindestrich*/
+@keyframes BiStw3 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2120px;
+        left: 450px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt4 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw4 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt4 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw4{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2160px; left: 460px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt5{
+}
+
+@keyframes BiSt4 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2160px;
+        left: 460px;
+        background-color: black
+    }
+}
+
+.BiStw4 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt5 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw4 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt5{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2200px; left: 470px; background-color:black}
-  }
-  .BiStw5{
+}
+
+/*bindestrich*/
+@keyframes BiStw4 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2160px;
+        left: 460px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt5 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw5 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt5 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw5{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2200px; left: 470px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt6{
+}
+
+@keyframes BiSt5 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2200px;
+        left: 470px;
+        background-color: black
+    }
+}
+
+.BiStw5 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt6 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw5 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt6{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2230px; left: 480px; background-color:black}
-  }
-  .BiStw6{
+}
+
+/*bindestrich*/
+@keyframes BiStw5 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2200px;
+        left: 470px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt6 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw63s5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt6 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  /*bindestrich*/
-  @keyframes BiStw6{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2230px; left: 480px;background-color:rgb(255, 255, 255)}
-  }
-  .BiSt6{
+}
+
+@keyframes BiSt6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2230px;
+        left: 480px;
+        background-color: black
+    }
+}
+
+.BiStw6 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiSt6 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw63s5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes BiSt6{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2230px; left: 480px; background-color:black}
-  }
-  .BiStw6{
+}
+
+/*bindestrich*/
+@keyframes BiStw6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2230px;
+        left: 480px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.BiSt6 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: BiStw6 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiSt6 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes BiStw6{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2230px; left: 480px;background-color:rgb(255, 255, 255)}
-  }
-  .Info1I{
+}
+
+@keyframes BiSt6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2230px;
+        left: 480px;
+        background-color: black
+    }
+}
+
+.BiStw6 {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info1I 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: BiStw6 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info1I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2300px; left: 510px; background-color:black}
-  }
-  .Info1Iw{
+}
+
+/*Info*/
+@keyframes BiStw6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2230px;
+        left: 480px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info1I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info1Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info1I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info1Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2300px; left: 510px;background-color:rgb(255, 255, 255)}
-  }
-  .Info1Iu{
+}
+
+@keyframes Info1I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2300px;
+        left: 510px;
+        background-color: black
+    }
+}
+
+.Info1Iw {
     height: 10px;
     width: 10px;
-    animation: Info1Iu 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info1Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info1Iu{
-    0% {top: 0px; left: 0px;  }
-    100%{ top:   -2300px; left: 510px; }
-  }
-  .Info2I{
+}
+
+/*Info*/
+@keyframes Info1Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2300px;
+        left: 510px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info1Iu {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info2I 5s linear 0s   1 forwards  normal ;
+    animation: Info1Iu 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info2I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2380px; left: 520px; background-color:black}
-  }
-  .Info2Iw{
+}
+
+/*Info*/
+@keyframes Info1Iu {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -2300px;
+        left: 510px;
+    }
+}
+
+.Info2I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info2Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info2I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info2Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2380px; left: 520px;background-color:rgb(255, 255, 255)}
-  }
-  .Info2Iu{
+}
+
+@keyframes Info2I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2380px;
+        left: 520px;
+        background-color: black
+    }
+}
+
+.Info2Iw {
     height: 10px;
     width: 10px;
-    animation: Info2Iu 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info2Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info2Iu{
-    0% {top: 0px; left: 0px;  }
-    100%{ top:   -2380px; left: 520px; }
-  }
-  .Info3I{
+}
+
+/*Info*/
+@keyframes Info2Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2380px;
+        left: 520px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info2Iu {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info3I 5s linear 0s   1 forwards  normal ;
+    animation: Info2Iu 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info3I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2470px; left: 530px; background-color:black}
-  }
-  .Info3Iw{
+}
+
+/*Info*/
+@keyframes Info2Iu {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -2380px;
+        left: 520px;
+    }
+}
+
+.Info3I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info3Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info3I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info3Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2470px; left: 530px;background-color:rgb(255, 255, 255)}
-  }
-  .Info4I{
+}
+
+@keyframes Info3I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2470px;
+        left: 530px;
+        background-color: black
+    }
+}
+
+.Info3Iw {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info4I 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info3Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info4I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2560px; left: 540px; background-color:black}
-  }
-  .Info4Iw{
+}
+
+/*Info*/
+@keyframes Info3Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2470px;
+        left: 530px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info4I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info4Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info4I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info4Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2560px; left: 540px;background-color:rgb(255, 255, 255)}
-  }
-  .Info5I{
+}
+
+@keyframes Info4I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2560px;
+        left: 540px;
+        background-color: black
+    }
+}
+
+.Info4Iw {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info5I 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info4Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info5I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2650px; left: 550px; background-color:black}
-  }
-  .Info5Iw{
+}
+
+/*Info*/
+@keyframes Info4Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2560px;
+        left: 540px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info5I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info5Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info5I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info5Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2650px; left: 550px;background-color:rgb(255, 255, 255)}
-  }
-  .Info6I{
+}
+
+@keyframes Info5I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2650px;
+        left: 550px;
+        background-color: black
+    }
+}
+
+.Info5Iw {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info6I 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info5Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info6I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2740px; left: 560px; background-color:black}
-  }
-  .Info6Iw{
+}
+
+/*Info*/
+@keyframes Info5Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2650px;
+        left: 550px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info6I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info6Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info6I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info6Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2740px; left: 560px;background-color:rgb(255, 255, 255)}
-  }
-  .Info7I{
+}
+
+@keyframes Info6I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2740px;
+        left: 560px;
+        background-color: black
+    }
+}
+
+.Info6Iw {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info7I 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info6Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info7I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2830px; left: 570px; background-color:black}
-  }
-  .Info7Iw{
+}
+
+/*Info*/
+@keyframes Info6Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2740px;
+        left: 560px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info7I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info7Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info7I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info7Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2830px; left: 570px;background-color:rgb(255, 255, 255)}
-  }
-  .Info7Iu{
+}
+
+@keyframes Info7I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2830px;
+        left: 570px;
+        background-color: black
+    }
+}
+
+.Info7Iw {
     height: 10px;
     width: 10px;
-    animation: Info7Iu 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info7Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info7Iu{
-    0% {top: 0px; left: 0px;  }
-    100%{ top:   -2830px; left: 570px; }
-  }
- 
-  .Info8I{
+}
+
+/*Info*/
+@keyframes Info7Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2830px;
+        left: 570px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info7Iu {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info8I 5s linear 0s   1 forwards  normal ;
+    animation: Info7Iu 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info8I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -2920px; left: 580px; background-color:black}
-  }
-  .Info8Iw{
+}
+
+/*Info*/
+@keyframes Info7Iu {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -2830px;
+        left: 570px;
+    }
+}
+
+.Info8I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info8Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info8I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info8Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -2920px; left: 580px;background-color:rgb(255, 255, 255)}
-  }
-  .Info8Iu{
+}
+
+@keyframes Info8I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2920px;
+        left: 580px;
+        background-color: black
+    }
+}
+
+.Info8Iw {
     height: 10px;
     width: 10px;
-    animation: Info8Iu 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info8Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info8Iu{
-    0% {top: 0px; left: 0px;  }
-    100%{ top:   -2920px; left: 580px; }
-  }
+}
 
-  .Info9I{
+/*Info*/
+@keyframes Info8Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -2920px;
+        left: 580px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info8Iu {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info9I 5s linear 0s   1 forwards  normal ;
+    animation: Info8Iu 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info9I{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -3000px; left: 590px; background-color:black}
-  }
-  .Info9Iw{
+}
+
+/*Info*/
+@keyframes Info8Iu {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -2920px;
+        left: 580px;
+    }
+}
+
+.Info9I {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info9Iw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info9I 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info9Iw{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{ top:   -3000px; left: 590px;background-color:rgb(255, 255, 255)}
-  }
-  .Info9Iu{
+}
+
+@keyframes Info9I {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3000px;
+        left: 590px;
+        background-color: black
+    }
+}
+
+.Info9Iw {
     height: 10px;
     width: 10px;
-    animation: Info9Iu 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info9Iw 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
-  @keyframes Info9Iu{
-    0% {top: 0px; left: 0px;  }
-    100%{ top:   -3000px; left: 590px; }
-  }
- 
-  .Info10N{
+}
+
+/*Info*/
+@keyframes Info9Iw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3000px;
+        left: 590px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info9Iu {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info10N 5s linear 0s   1 forwards  normal ;
+    animation: Info9Iu 5s linear 0s 1 forwards normal;
     position: relative;
-  }
-  @keyframes Info10N{
-    0% {top: 0px; left: 0px; background-color:  #20243a }
-    100%{top: -3090px; left: 620px; background-color:black}
-  }
-  .Info10Nw{
+}
+
+/*Info*/
+@keyframes Info9Iu {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -3000px;
+        left: 590px;
+    }
+}
+
+.Info10N {
     height: 10px;
     width: 10px;
-    background-color: #20243a ;
-    animation: Info10Nw 5s linear 0s   1 forwards  normal ;
+    background-color: #20243a;
+    animation: Info10N 5s linear 0s 1 forwards normal;
     position: relative;
-  }
- /*Info*/
- @keyframes Info10Nw{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{ top:   -3090px; left: 620px;background-color:rgb(255, 255, 255)}
 }
 
-.Info11N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info11N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+@keyframes Info10N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3090px;
+        left: 620px;
+        background-color: black
+    }
 }
-@keyframes Info11N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3170px; left: 630px; background-color:black}
-}
-.Info11Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info11Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info10Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info10Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info11Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3170px; left: 630px;background-color:rgb(255, 255, 255)}
+@keyframes Info10Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3090px;
+        left: 620px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info12N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info12N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info11N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info11N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info12N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3260px; left: 640px; background-color:black}
+
+@keyframes Info11N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3170px;
+        left: 630px;
+        background-color: black
+    }
 }
-.Info12Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info12Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info11Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info11Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info12Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3260px; left: 640px;background-color:rgb(255, 255, 255)}
+@keyframes Info11Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3170px;
+        left: 630px;
+        background-color: rgb(255, 255, 255)
+    }
 }
-.Info13N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info13N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info12N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info12N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info13N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3350px; left: 650px; background-color:black}
+
+@keyframes Info12N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3260px;
+        left: 640px;
+        background-color: black
+    }
 }
-.Info13Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info13Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info12Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info12Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info13Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3350px; left: 650px;background-color:rgb(255, 255, 255)}
+@keyframes Info12Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3260px;
+        left: 640px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info14N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info14N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info13N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info13N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info14N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3430px; left: 660px; background-color:black}
+
+@keyframes Info13N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3350px;
+        left: 650px;
+        background-color: black
+    }
 }
-.Info14Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info14Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info13Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info13Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info14Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3430px; left: 660px;background-color:rgb(255, 255, 255)}
+@keyframes Info13Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3350px;
+        left: 650px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info15N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info15N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info14N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info14N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info15N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3520px; left: 670px; background-color:black}
+
+@keyframes Info14N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3430px;
+        left: 660px;
+        background-color: black
+    }
 }
-.Info15Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info15Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info14Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info14Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info15Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3520px; left: 670px;background-color:rgb(255, 255, 255)}
+@keyframes Info14Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3430px;
+        left: 660px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info16N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info16N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info15N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info15N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info16N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3610px; left: 680px; background-color:black}
+
+@keyframes Info15N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3520px;
+        left: 670px;
+        background-color: black
+    }
 }
-.Info16Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info16Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info15Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info15Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info16Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3610px; left: 680px;background-color:rgb(255, 255, 255)}
+@keyframes Info15Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3520px;
+        left: 670px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info17N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info17N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info16N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info16N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info17N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3700px; left: 690px; background-color:black}
+
+@keyframes Info16N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3610px;
+        left: 680px;
+        background-color: black
+    }
 }
-.Info17Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info17Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info16Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info16Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info17Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3700px; left: 690px;background-color:rgb(255, 255, 255)}
+@keyframes Info16Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3610px;
+        left: 680px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info18N{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info18N 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info17N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info17N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info18N{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3780px; left: 700px; background-color:black}
+
+@keyframes Info17N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3700px;
+        left: 690px;
+        background-color: black
+    }
 }
-.Info18Nw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info18Nw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info17Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info17Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info18Nw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3780px; left: 700px;background-color:rgb(255, 255, 255)}
+@keyframes Info17Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3700px;
+        left: 690px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info19F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info19F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info18N {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info18N 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info19F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3870px; left: 730px; background-color:black}
+
+@keyframes Info18N {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3780px;
+        left: 700px;
+        background-color: black
+    }
 }
-.Info19Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info19Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info18Nw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info18Nw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info19Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3870px; left: 730px;background-color:rgb(255, 255, 255)}
+@keyframes Info18Nw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3780px;
+        left: 700px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info20F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info20F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info19F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info19F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info20F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -3950px; left: 740px; background-color:black}
+
+@keyframes Info19F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3870px;
+        left: 730px;
+        background-color: black
+    }
 }
-.Info20Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info20Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info19Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info19Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info20Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -3950px; left: 740px;background-color:rgb(255, 255, 255)}
+@keyframes Info19Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3870px;
+        left: 730px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info21F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info21F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info20F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info20F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info21F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4040px; left: 750px; background-color:black}
+
+@keyframes Info20F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3950px;
+        left: 740px;
+        background-color: black
+    }
 }
-.Info21Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info21Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info20Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info20Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info21Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4040px; left: 750px;background-color:rgb(255, 255, 255)}
+@keyframes Info20Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -3950px;
+        left: 740px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info22F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info22F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info21F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info21F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info22F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4130px; left: 760px; background-color:black}
+
+@keyframes Info21F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4040px;
+        left: 750px;
+        background-color: black
+    }
 }
-.Info22Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info22Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info21Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info21Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info22Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4130px; left: 760px;background-color:rgb(255, 255, 255)}
+@keyframes Info21Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4040px;
+        left: 750px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info23F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info23F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info22F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info22F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info23F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4220px; left: 770px; background-color:black}
+
+@keyframes Info22F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4130px;
+        left: 760px;
+        background-color: black
+    }
 }
-.Info23Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info23Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info22Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info22Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info23Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4220px; left: 770px;background-color:rgb(255, 255, 255)}
+@keyframes Info22Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4130px;
+        left: 760px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info24F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info24F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info23F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info23F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info24F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4310px; left: 780px; background-color:black}
+
+@keyframes Info23F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4220px;
+        left: 770px;
+        background-color: black
+    }
 }
-.Info24Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info24Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info23Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info23Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info24Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4310px; left: 780px;background-color:rgb(255, 255, 255)}
+@keyframes Info23Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4220px;
+        left: 770px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info25F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info25F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info24F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info24F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info25F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4380px; left: 790px; background-color:black}
+
+@keyframes Info24F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4310px;
+        left: 780px;
+        background-color: black
+    }
+}
+
+.Info24Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info24Fw 5s linear 0s 1 forwards normal;
+    position: relative;
+}
+
+/*Info*/
+@keyframes Info24Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4310px;
+        left: 780px;
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+.Info25F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info25F 5s linear 0s 1 forwards normal;
+    position: relative;
+}
+
+@keyframes Info25F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4380px;
+        left: 790px;
+        background-color: black
+    }
 }
-.Info25Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info25Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info25Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info25Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info25Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4380px; left: 790px;background-color:rgb(255, 255, 255)}
+@keyframes Info25Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4380px;
+        left: 790px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info26F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation:  Info26F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info26F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info26F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info26F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4450px; left: 800px; background-color:black}
+
+@keyframes Info26F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4450px;
+        left: 800px;
+        background-color: black
+    }
 }
-.Info26Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info26Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info26Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info26Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info26Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4450px; left: 800px;background-color:rgb(255, 255, 255)}
+@keyframes Info26Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4450px;
+        left: 800px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info27F{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation:  Info27F 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info27F {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info27F 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info27F{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4510px; left: 810px; background-color:black}
+
+@keyframes Info27F {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4510px;
+        left: 810px;
+        background-color: black
+    }
 }
-.Info27Fw{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info27Fw 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info27Fw {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info27Fw 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info27Fw{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4510px; left: 810px;background-color:rgb(255, 255, 255)}
+@keyframes Info27Fw {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4510px;
+        left: 810px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info28O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation:  Info28O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info28O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info28O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info28O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4530px; left: 840px; background-color:black}
+
+@keyframes Info28O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4530px;
+        left: 840px;
+        background-color: black
+    }
 }
-.Info28Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info28Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info28Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info28Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info28Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4530px; left: 840px;background-color:rgb(255, 255, 255)}
+@keyframes Info28Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4530px;
+        left: 840px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info29O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation:  Info29O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info29O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info29O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info29O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4600px; left: 850px; background-color:black}
+
+@keyframes Info29O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4600px;
+        left: 850px;
+        background-color: black
+    }
 }
-.Info29Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info29Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info29Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info29Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info29Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4600px; left: 850px;background-color:rgb(255, 255, 255)}
+@keyframes Info29Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4600px;
+        left: 850px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info30O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation:  Info30O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info30O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info30O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info30O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4680px; left: 860px; background-color:black}
+
+@keyframes Info30O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4680px;
+        left: 860px;
+        background-color: black
+    }
 }
-.Info30Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info30Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info30Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info30Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info30Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4680px; left: 860px;background-color:rgb(255, 255, 255)}
+@keyframes Info30Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4680px;
+        left: 860px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info31O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info31O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info31O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info31O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info31O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4770px; left: 870px; background-color:black}
+
+@keyframes Info31O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4770px;
+        left: 870px;
+        background-color: black
+    }
 }
-.Info31Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info31Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info31Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info31Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info31Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4770px; left: 870px;background-color:rgb(255, 255, 255)}
+@keyframes Info31Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4770px;
+        left: 870px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info32O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info32O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info32O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info32O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info32O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4860px; left: 880px; background-color:black}
+
+@keyframes Info32O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4860px;
+        left: 880px;
+        background-color: black
+    }
 }
-.Info32Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info32Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info32Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info32Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info32Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4860px; left: 880px;background-color:rgb(255, 255, 255)}
+@keyframes Info32Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4860px;
+        left: 880px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info33O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info33O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info33O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info33O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info33O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -4950px; left: 890px; background-color:black}
+
+@keyframes Info33O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4950px;
+        left: 890px;
+        background-color: black
+    }
 }
-.Info33Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info33Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info33Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info33Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info33Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -4950px; left: 890px;background-color:rgb(255, 255, 255)}
+@keyframes Info33Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -4950px;
+        left: 890px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info34O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info34O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info34O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info34O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info34O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5040px; left: 900px; background-color:black}
+
+@keyframes Info34O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5040px;
+        left: 900px;
+        background-color: black
+    }
 }
-.Info34Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info34Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info34Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info34Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info34Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -5040px; left: 900px;background-color:rgb(255, 255, 255)}
+@keyframes Info34Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5040px;
+        left: 900px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info35O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info35O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info35O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info35O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info35O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5120px; left: 910px; background-color:black}
+
+@keyframes Info35O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5120px;
+        left: 910px;
+        background-color: black
+    }
 }
-.Info35Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info35Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info35Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info35Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info35Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -5120px; left: 910px;background-color:rgb(255, 255, 255)}
+@keyframes Info35Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5120px;
+        left: 910px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Info36O{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info36O 5s linear 0s   1 forwards  normal ;
-  position: relative;
+.Info36O {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info36O 5s linear 0s 1 forwards normal;
+    position: relative;
 }
-@keyframes Info36O{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5190px; left: 920px; background-color:black}
+
+@keyframes Info36O {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5190px;
+        left: 920px;
+        background-color: black
+    }
 }
-.Info36Ow{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Info36Ow 5s linear 0s   1 forwards  normal ;
-  position: relative;
+
+.Info36Ow {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Info36Ow 5s linear 0s 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Info36Ow{
-0% {top: 0px; left: 0px; background-color:  #20243a }
-100%{ top:   -5190px; left: 920px;background-color:rgb(255, 255, 255)}
+@keyframes Info36Ow {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5190px;
+        left: 920px;
+        background-color: rgb(255, 255, 255)
+    }
 }
 
-.Namen1{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen1 5s linear 100ms   1 forwards  normal ;
-  position: relative;
+.Namen1 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen1 5s linear 100ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen1{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5140px; left: 200px; background-color:black}
+
+@keyframes Namen1 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5140px;
+        left: 200px;
+        background-color: black
+    }
 }
-.Namen1u{
-  height: 10px;
-  width: 10px;
-  animation: Namen1u 5s linear 100ms   1 forwards  normal ;
-  position: relative;
+
+.Namen1u {
+    height: 10px;
+    width: 10px;
+    animation: Namen1u 5s linear 100ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen1u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5290px; left: 930px;}
+@keyframes Namen1u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5290px;
+        left: 930px;
+    }
 }
-.Namen2{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen2 5s linear 200ms   1 forwards  normal ;
-  position: relative;
+
+.Namen2 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen2 5s linear 200ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen2{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5140px; left: 210px; background-color:black}
+
+@keyframes Namen2 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5140px;
+        left: 210px;
+        background-color: black
+    }
 }
-.Namen2u{
-  height: 10px;
-  width: 10px;
-  animation: Namen2u 5s linear 200ms   1 forwards  normal ;
-  position: relative;
+
+.Namen2u {
+    height: 10px;
+    width: 10px;
+    animation: Namen2u 5s linear 200ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen2u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5140px; left: 210px;}
+@keyframes Namen2u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5140px;
+        left: 210px;
+    }
 }
 
-.Namen3{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen3 5s linear 300ms   1 forwards  normal ;
-  position: relative;
+.Namen3 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen3 5s linear 300ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen3{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5200px; left: 220px; background-color:black}
+
+@keyframes Namen3 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5200px;
+        left: 220px;
+        background-color: black
+    }
 }
-.Namen3u{
-  height: 10px;
-  width: 10px;
-  animation: Namen3u 5s linear 300ms   1 forwards  normal ;
-  position: relative;
+
+.Namen3u {
+    height: 10px;
+    width: 10px;
+    animation: Namen3u 5s linear 300ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen3u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5200px; left: 220px;}
+@keyframes Namen3u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5200px;
+        left: 220px;
+    }
 }
 
-.Namen4{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen4 5s linear 400ms   1 forwards  normal ;
-  position: relative;
+.Namen4 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen4 5s linear 400ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen4{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5240px; left: 250px; background-color:black}
+
+@keyframes Namen4 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5240px;
+        left: 250px;
+        background-color: black
+    }
 }
-.Namen4u{
-  height: 10px;
-  width: 10px;
-  animation: Namen4u 5s linear 400ms   1 forwards  normal ;
-  position: relative;
+
+.Namen4u {
+    height: 10px;
+    width: 10px;
+    animation: Namen4u 5s linear 400ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen4u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5240px; left: 250px;}
+@keyframes Namen4u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5240px;
+        left: 250px;
+    }
 }
 
-.Namen5{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen5 5s linear 500ms   1 forwards  normal ;
-  position: relative;
+.Namen5 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen5 5s linear 500ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen5{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5290px; left: 260px; background-color:black}
+
+@keyframes Namen5 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5290px;
+        left: 260px;
+        background-color: black
+    }
 }
-.Namen5u{
-  height: 10px;
-  width: 10px;
-  animation: Namen5u 5s linear 500ms   1 forwards  normal ;
-  position: relative;
+
+.Namen5u {
+    height: 10px;
+    width: 10px;
+    animation: Namen5u 5s linear 500ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen5u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5290px; left: 260px;}
+@keyframes Namen5u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5290px;
+        left: 260px;
+    }
 }
 
-.Namen6{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen6 5s linear 600ms   1 forwards  normal ;
-  position: relative;
+.Namen6 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen6 5s linear 600ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen6{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5390px; left: 270px; background-color:black}
+
+@keyframes Namen6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5390px;
+        left: 270px;
+        background-color: black
+    }
 }
-.Namen6u{
-  height: 10px;
-  width: 10px;
-  animation: Namen6u 5s linear 600ms   1 forwards  normal ;
-  position: relative;
+
+.Namen6u {
+    height: 10px;
+    width: 10px;
+    animation: Namen6u 5s linear 600ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen6u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5390px; left: 270px;}
+@keyframes Namen6u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5390px;
+        left: 270px;
+    }
 }
 
-.Namen7{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen7 5s linear 700ms   1 forwards  normal ;
-  position: relative;
+.Namen7 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen7 5s linear 700ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen7{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5530px; left: 280px; background-color:black}
+
+@keyframes Namen7 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5530px;
+        left: 280px;
+        background-color: black
+    }
 }
-.Namen7u{
-  height: 10px;
-  width: 10px;
-  animation: Namen7u 5s linear 700ms   1 forwards  normal ;
-  position: relative;
+
+.Namen7u {
+    height: 10px;
+    width: 10px;
+    animation: Namen7u 5s linear 700ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen7u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5530px; left: 280px;}
+@keyframes Namen7u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5530px;
+        left: 280px;
+    }
 }
 
-.Namen8{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen8 5s linear 800ms   1 forwards  normal ;
-  position: relative;
+.Namen8 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen8 5s linear 800ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen8{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5630px; left: 310px; background-color:black}
+
+@keyframes Namen8 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5630px;
+        left: 310px;
+        background-color: black
+    }
 }
-.Namen8u{
-  height: 10px;
-  width: 10px;
-  animation: Namen8u 5s linear 800ms   1 forwards  normal ;
-  position: relative;
+
+.Namen8u {
+    height: 10px;
+    width: 10px;
+    animation: Namen8u 5s linear 800ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen8u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5630px; left: 310px;}
+@keyframes Namen8u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5630px;
+        left: 310px;
+    }
 }
 
-.Namen9{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen9 5s linear 900ms   1 forwards  normal ;
-  position: relative;
+.Namen9 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen9 5s linear 900ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen9{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -5860px; left: 320px; background-color:black}
+
+@keyframes Namen9 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -5860px;
+        left: 320px;
+        background-color: black
+    }
 }
-.Namen9u{
-  height: 10px;
-  width: 10px;
-  animation: Namen9u 5s linear 900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen9u {
+    height: 10px;
+    width: 10px;
+    animation: Namen9u 5s linear 900ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen9u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -5860px; left: 320px;}
+@keyframes Namen9u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -5860px;
+        left: 320px;
+    }
 }
 
-.Namen10{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen10 5s linear 1000ms   1 forwards  normal ;
-  position: relative;
+.Namen10 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen10 5s linear 1000ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen10{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -6080px; left: 330px; background-color:black}
+
+@keyframes Namen10 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -6080px;
+        left: 330px;
+        background-color: black
+    }
 }
-.Namen10u{
-  height: 10px;
-  width: 10px;
-  animation: Namen10u 5s linear 1000ms   1 forwards  normal ;
-  position: relative;
+
+.Namen10u {
+    height: 10px;
+    width: 10px;
+    animation: Namen10u 5s linear 1000ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen10u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -6080px; left: 330px;}
+@keyframes Namen10u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -6080px;
+        left: 330px;
+    }
 }
 
-.Namen11{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen11 5s linear 1100ms   1 forwards  normal ;
-  position: relative;
+.Namen11 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen11 5s linear 1100ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen11{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -6320px; left: 340px; background-color:black}
+
+@keyframes Namen11 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -6320px;
+        left: 340px;
+        background-color: black
+    }
 }
-.Namen11u{
-  height: 10px;
-  width: 10px;
-  animation: Namen11u 5s linear 1100ms   1 forwards  normal ;
-  position: relative;
+
+.Namen11u {
+    height: 10px;
+    width: 10px;
+    animation: Namen11u 5s linear 1100ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen11u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -6320px; left: 340px;}
+@keyframes Namen11u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -6320px;
+        left: 340px;
+    }
 }
 
-.Namen12{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen12 5s linear 1200ms   1 forwards  normal ;
-  position: relative;
+.Namen12 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen12 5s linear 1200ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen12{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -6470px; left: 370px; background-color:black}
+
+@keyframes Namen12 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -6470px;
+        left: 370px;
+        background-color: black
+    }
 }
-.Namen12u{
-  height: 10px;
-  width: 10px;
-  animation: Namen12u 5s linear 1200ms   1 forwards  normal ;
-  position: relative;
+
+.Namen12u {
+    height: 10px;
+    width: 10px;
+    animation: Namen12u 5s linear 1200ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen12u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -6470px; left: 370px;}
+@keyframes Namen12u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -6470px;
+        left: 370px;
+    }
 }
 
-.Namen13{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen13 5s linear 1300ms   1 forwards  normal ;
-  position: relative;
+.Namen13 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen13 5s linear 1300ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen13{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -6700px; left: 380px; background-color:black}
+
+@keyframes Namen13 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -6700px;
+        left: 380px;
+        background-color: black
+    }
 }
-.Namen13u{
-  height: 10px;
-  width: 10px;
-  animation: Namen13u 5s linear 1300ms   1 forwards  normal ;
-  position: relative;
+
+.Namen13u {
+    height: 10px;
+    width: 10px;
+    animation: Namen13u 5s linear 1300ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen13u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -6700px; left: 380px;}
+@keyframes Namen13u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -6700px;
+        left: 380px;
+    }
 }
 
-.Namen14{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen14 5s linear 1400ms   1 forwards  normal ;
-  position: relative;
+.Namen14 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen14 5s linear 1400ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen14{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -6890px; left: 390px; background-color:black}
+
+@keyframes Namen14 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -6890px;
+        left: 390px;
+        background-color: black
+    }
 }
-.Namen14u{
-  height: 10px;
-  width: 10px;
-  animation: Namen14u 5s linear 1400ms   1 forwards  normal ;
-  position: relative;
+
+.Namen14u {
+    height: 10px;
+    width: 10px;
+    animation: Namen14u 5s linear 1400ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen14u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -6890px; left: 390px;}
+@keyframes Namen14u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -6890px;
+        left: 390px;
+    }
 }
 
-.Namen15{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen15 5s linear 1500ms   1 forwards  normal ;
-  position: relative;
+.Namen15 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen15 5s linear 1500ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen15{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7090px; left: 400px; background-color:black}
+
+@keyframes Namen15 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7090px;
+        left: 400px;
+        background-color: black
+    }
 }
-.Namen15u{
-  height: 10px;
-  width: 10px;
-  animation: Namen15u 5s linear 1500ms   1 forwards  normal ;
-  position: relative;
+
+.Namen15u {
+    height: 10px;
+    width: 10px;
+    animation: Namen15u 5s linear 1500ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen15u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7090px; left: 400px;}
+@keyframes Namen15u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7090px;
+        left: 400px;
+    }
 }
 
-.Namen16{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen16 5s linear 1600ms   1 forwards  normal ;
-  position: relative;
+.Namen16 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen16 5s linear 1600ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen16{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7330px; left: 410px; background-color:black}
+
+@keyframes Namen16 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7330px;
+        left: 410px;
+        background-color: black
+    }
 }
-.Namen16u{
-  height: 10px;
-  width: 10px;
-  animation: Namen16u 5s linear 1600ms   1 forwards  normal ;
-  position: relative;
+
+.Namen16u {
+    height: 10px;
+    width: 10px;
+    animation: Namen16u 5s linear 1600ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen16u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7330px; left: 410px;}
+@keyframes Namen16u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7330px;
+        left: 410px;
+    }
 }
 
-.Namen17{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen17 5s linear 1700ms   1 forwards  normal ;
-  position: relative;
+.Namen17 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen17 5s linear 1700ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen17{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7290px; left: 430px; background-color:black}
+
+@keyframes Namen17 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7290px;
+        left: 430px;
+        background-color: black
+    }
 }
-.Namen17u{
-  height: 10px;
-  width: 10px;
-  animation: Namen17u 5s linear 1700ms   1 forwards  normal ;
-  position: relative;
+
+.Namen17u {
+    height: 10px;
+    width: 10px;
+    animation: Namen17u 5s linear 1700ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen17u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7290px; left: 430px;}
+@keyframes Namen17u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7290px;
+        left: 430px;
+    }
 }
 
-.Namen18{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen18 5s linear 1800ms   1 forwards  normal ;
-  position: relative;
+.Namen18 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen18 5s linear 1800ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen18{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7520px; left: 440px; background-color:black}
+
+@keyframes Namen18 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7520px;
+        left: 440px;
+        background-color: black
+    }
 }
-.Namen18u{
-  height: 10px;
-  width: 10px;
-  animation: Namen18u 5s linear 1800ms   1 forwards  normal ;
-  position: relative;
+
+.Namen18u {
+    height: 10px;
+    width: 10px;
+    animation: Namen18u 5s linear 1800ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen18u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7520px; left: 440px;}
+@keyframes Namen18u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7520px;
+        left: 440px;
+    }
 }
 
-.Namen19{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen19 5s linear 1900ms   1 forwards  normal ;
-  position: relative;
+.Namen19 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen19 5s linear 1900ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen19{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7760px; left: 450px; background-color:black}
+
+@keyframes Namen19 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7760px;
+        left: 450px;
+        background-color: black
+    }
 }
-.Namen19u{
-  height: 10px;
-  width: 10px;
-  animation: Namen19u 5s linear 1900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen19u {
+    height: 10px;
+    width: 10px;
+    animation: Namen19u 5s linear 1900ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen19u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7760px; left: 450px;}
+@keyframes Namen19u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7760px;
+        left: 450px;
+    }
 }
 
-.Namen20{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen20 5s linear 2000ms   1 forwards  normal ;
-  position: relative;
+.Namen20 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen20 5s linear 2000ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen20{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -7990px; left: 460px; background-color:black}
+
+@keyframes Namen20 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -7990px;
+        left: 460px;
+        background-color: black
+    }
 }
-.Namen20u{
-  height: 10px;
-  width: 10px;
-  animation: Namen20u 5s linear 2000ms   1 forwards  normal ;
-  position: relative;
+
+.Namen20u {
+    height: 10px;
+    width: 10px;
+    animation: Namen20u 5s linear 2000ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen20u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -7990px; left: 460px;}
+@keyframes Namen20u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -7990px;
+        left: 460px;
+    }
 }
 
-.Namen21{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen21 5s linear 2100ms   1 forwards  normal ;
-  position: relative;
+.Namen21 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen21 5s linear 2100ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen21{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -8220px; left: 490px; background-color:black}
+
+@keyframes Namen21 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -8220px;
+        left: 490px;
+        background-color: black
+    }
 }
-.Namen21u{
-  height: 10px;
-  width: 10px;
-  animation: Namen21u 5s linear 2100ms   1 forwards  normal ;
-  position: relative;
+
+.Namen21u {
+    height: 10px;
+    width: 10px;
+    animation: Namen21u 5s linear 2100ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen21u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -8220px; left: 490px;}
+@keyframes Namen21u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -8220px;
+        left: 490px;
+    }
 }
 
-.Namen22{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen22 5s linear 2100ms   1 forwards  normal ;
-  position: relative;
+.Namen22 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen22 5s linear 2100ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen22{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -8450px; left: 500px; background-color:black}
+
+@keyframes Namen22 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -8450px;
+        left: 500px;
+        background-color: black
+    }
 }
-.Namen22u{
-  height: 10px;
-  width: 10px;
-  animation: Namen22u 5s linear 2200ms   1 forwards  normal ;
-  position: relative;
+
+.Namen22u {
+    height: 10px;
+    width: 10px;
+    animation: Namen22u 5s linear 2200ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen22u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -8450px; left: 500px;}
+@keyframes Namen22u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -8450px;
+        left: 500px;
+    }
 }
 
-.Namen23{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen23 5s linear 2300ms   1 forwards  normal ;
-  position: relative;
+.Namen23 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen23 5s linear 2300ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen23{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -8650px; left: 510px; background-color:black}
+
+@keyframes Namen23 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -8650px;
+        left: 510px;
+        background-color: black
+    }
 }
-.Namen23u{
-  height: 10px;
-  width: 10px;
-  animation: Namen23u 5s linear 2300ms   1 forwards  normal ;
-  position: relative;
+
+.Namen23u {
+    height: 10px;
+    width: 10px;
+    animation: Namen23u 5s linear 2300ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen23u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -8650px; left: 510px;}
+@keyframes Namen23u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -8650px;
+        left: 510px;
+    }
 }
 
-.Namen24{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen24 5s linear 2400ms   1 forwards  normal ;
-  position: relative;
+.Namen24 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen24 5s linear 2400ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen24{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -8870px; left: 520px; background-color:black}
+
+@keyframes Namen24 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -8870px;
+        left: 520px;
+        background-color: black
+    }
 }
-.Namen24u{
-  height: 10px;
-  width: 10px;
-  animation: Namen24u 5s linear 2400ms   1 forwards  normal ;
-  position: relative;
+
+.Namen24u {
+    height: 10px;
+    width: 10px;
+    animation: Namen24u 5s linear 2400ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen24u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -8870px; left: 520px;}
+@keyframes Namen24u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -8870px;
+        left: 520px;
+    }
 }
 
-.Namen25{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen25 5s linear 2500ms   1 forwards  normal ;
-  position: relative;
+.Namen25 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen25 5s linear 2500ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen25{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9020px; left: 550px; background-color:black}
+
+@keyframes Namen25 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9020px;
+        left: 550px;
+        background-color: black
+    }
 }
-.Namen25u{
-  height: 10px;
-  width: 10px;
-  animation: Namen25u 5s linear 2500ms   1 forwards  normal ;
-  position: relative;
+
+.Namen25u {
+    height: 10px;
+    width: 10px;
+    animation: Namen25u 5s linear 2500ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen25u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9020px; left: 550px;}
+@keyframes Namen25u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9020px;
+        left: 550px;
+    }
 }
 
-.Namen26{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen26 5s linear 2600ms   1 forwards  normal ;
-  position: relative;
+.Namen26 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen26 5s linear 2600ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen26{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9170px; left: 560px; background-color:black}
+
+@keyframes Namen26 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9170px;
+        left: 560px;
+        background-color: black
+    }
 }
-.Namen26u{
-  height: 10px;
-  width: 10px;
-  animation: Namen26u 5s linear 2600ms   1 forwards  normal ;
-  position: relative;
+
+.Namen26u {
+    height: 10px;
+    width: 10px;
+    animation: Namen26u 5s linear 2600ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen26u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9170px; left: 560px;}
+@keyframes Namen26u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9170px;
+        left: 560px;
+    }
 }
 
-.Namen27{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen27 5s linear 2700ms   1 forwards  normal ;
-  position: relative;
+.Namen27 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen27 5s linear 2700ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen27{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9280px; left: 570px; background-color:black}
+
+@keyframes Namen27 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9280px;
+        left: 570px;
+        background-color: black
+    }
 }
-.Namen27u{
-  height: 10px;
-  width: 10px;
-  animation: Namen27u 5s linear 2700ms   1 forwards  normal ;
-  position: relative;
+
+.Namen27u {
+    height: 10px;
+    width: 10px;
+    animation: Namen27u 5s linear 2700ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen27u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9280px; left: 570px;}
+@keyframes Namen27u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9280px;
+        left: 570px;
+    }
 }
 
-.Namen28{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen28 5s linear 2800ms   1 forwards  normal ;
-  position: relative;
+.Namen28 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen28 5s linear 2800ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen28{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9390px; left: 580px; background-color:black}
+
+@keyframes Namen28 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9390px;
+        left: 580px;
+        background-color: black
+    }
 }
-.Namen28u{
-  height: 10px;
-  width: 10px;
-  animation: Namen28u 5s linear 2800ms   1 forwards  normal ;
-  position: relative;
+
+.Namen28u {
+    height: 10px;
+    width: 10px;
+    animation: Namen28u 5s linear 2800ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen28u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9390px; left: 580px;}
+@keyframes Namen28u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9390px;
+        left: 580px;
+    }
 }
 
-.Namen29{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen29 5s linear 2900ms   1 forwards  normal ;
-  position: relative;
+.Namen29 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen29 5s linear 2900ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen29{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9410px; left: 590px; background-color:black}
+
+@keyframes Namen29 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9410px;
+        left: 590px;
+        background-color: black
+    }
 }
-.Namen29u{
-  height: 10px;
-  width: 10px;
-  animation: Namen29u 5s linear 2900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen29u {
+    height: 10px;
+    width: 10px;
+    animation: Namen29u 5s linear 2900ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen29u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9410px; left: 590px;}
+@keyframes Namen29u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9410px;
+        left: 590px;
+    }
 }
 
-.Namen30{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen30 5s linear 3000ms   1 forwards  normal ;
-  position: relative;
+.Namen30 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen30 5s linear 3000ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen30{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9560px; left: 610px; background-color:black}
+
+@keyframes Namen30 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9560px;
+        left: 610px;
+        background-color: black
+    }
 }
-.Namen30u{
-  height: 10px;
-  width: 10px;
-  animation: Namen30u 5s linear 3000ms   1 forwards  normal ;
-  position: relative;
+
+.Namen30u {
+    height: 10px;
+    width: 10px;
+    animation: Namen30u 5s linear 3000ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen30u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9560px; left: 610px;}
+@keyframes Namen30u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9560px;
+        left: 610px;
+    }
 }
 
-.Namen31{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen31 5s linear 3100ms   1 forwards  normal ;
-  position: relative;
+.Namen31 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen31 5s linear 3100ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen31{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9620px; left: 620px; background-color:black}
+
+@keyframes Namen31 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9620px;
+        left: 620px;
+        background-color: black
+    }
 }
-.Namen31u{
-  height: 10px;
-  width: 10px;
-  animation: Namen31u 5s linear 3100ms   1 forwards  normal ;
-  position: relative;
+
+.Namen31u {
+    height: 10px;
+    width: 10px;
+    animation: Namen31u 5s linear 3100ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen31u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9620px; left: 620px;}
+@keyframes Namen31u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9620px;
+        left: 620px;
+    }
 }
 
-.Namen32{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen32 5s linear 3200ms   1 forwards  normal ;
-  position: relative;
+.Namen32 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen32 5s linear 3200ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen32{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9770px; left: 630px; background-color:black}
+
+@keyframes Namen32 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9770px;
+        left: 630px;
+        background-color: black
+    }
 }
-.Namen32u{
-  height: 10px;
-  width: 10px;
-  animation: Namen32u 5s linear 3200ms   1 forwards  normal ;
-  position: relative;
+
+.Namen32u {
+    height: 10px;
+    width: 10px;
+    animation: Namen32u 5s linear 3200ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen32u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9770px; left: 630px;}
+@keyframes Namen32u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9770px;
+        left: 630px;
+    }
 }
 
-.Namen33{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen33 5s linear 3300ms   1 forwards  normal ;
-  position: relative;
+.Namen33 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen33 5s linear 3300ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen33{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9830px; left: 640px; background-color:black}
+
+@keyframes Namen33 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9830px;
+        left: 640px;
+        background-color: black
+    }
 }
-.Namen33u{
-  height: 10px;
-  width: 10px;
-  animation: Namen33u 5s linear 3300ms   1 forwards  normal ;
-  position: relative;
+
+.Namen33u {
+    height: 10px;
+    width: 10px;
+    animation: Namen33u 5s linear 3300ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen33u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9830px; left: 640px;}
+@keyframes Namen33u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9830px;
+        left: 640px;
+    }
 }
 
-.Namen34{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen34 5s linear 3400ms   1 forwards  normal ;
-  position: relative;
+.Namen34 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen34 5s linear 3400ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen34{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -9890px; left: 650px; background-color:black}
+
+@keyframes Namen34 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -9890px;
+        left: 650px;
+        background-color: black
+    }
 }
-.Namen34u{
-  height: 10px;
-  width: 10px;
-  animation: Namen34u 5s linear 3400ms   1 forwards  normal ;
-  position: relative;
+
+.Namen34u {
+    height: 10px;
+    width: 10px;
+    animation: Namen34u 5s linear 3400ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen34u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -9890px; left: 650px;}
+@keyframes Namen34u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -9890px;
+        left: 650px;
+    }
 }
 
-.Namen35{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen35 5s linear 3500ms   1 forwards  normal ;
-  position: relative;
+.Namen35 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen35 5s linear 3500ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen35{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10000px; left: 660px; background-color:black}
+
+@keyframes Namen35 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10000px;
+        left: 660px;
+        background-color: black
+    }
 }
-.Namen35u{
-  height: 10px;
-  width: 10px;
-  animation: Namen35u 5s linear 3500ms   1 forwards  normal ;
-  position: relative;
+
+.Namen35u {
+    height: 10px;
+    width: 10px;
+    animation: Namen35u 5s linear 3500ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen35u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10000px; left: 660px;}
+@keyframes Namen35u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10000px;
+        left: 660px;
+    }
 }
 
-.Namen36{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen36 5s linear 3600ms   1 forwards  normal ;
-  position: relative;
+.Namen36 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen36 5s linear 3600ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen36{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10040px; left: 670px; background-color:black}
+
+@keyframes Namen36 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10040px;
+        left: 670px;
+        background-color: black
+    }
 }
-.Namen36u{
-  height: 10px;
-  width: 10px;
-  animation: Namen36u 5s linear 3600ms   1 forwards  normal ;
-  position: relative;
+
+.Namen36u {
+    height: 10px;
+    width: 10px;
+    animation: Namen36u 5s linear 3600ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen36u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10040px; left: 670px;}
+@keyframes Namen36u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10040px;
+        left: 670px;
+    }
 }
 
-.Namen37{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen37 5s linear 3700ms   1 forwards  normal ;
-  position: relative;
+.Namen37 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen37 5s linear 3700ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen37{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10100px; left: 680px; background-color:black}
+
+@keyframes Namen37 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10100px;
+        left: 680px;
+        background-color: black
+    }
 }
-.Namen37u{
-  height: 10px;
-  width: 10px;
-  animation: Namen37u 5s linear 3700ms   1 forwards  normal ;
-  position: relative;
+
+.Namen37u {
+    height: 10px;
+    width: 10px;
+    animation: Namen37u 5s linear 3700ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen37u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10100px; left: 680px;}
+@keyframes Namen37u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10100px;
+        left: 680px;
+    }
 }
 
-.Namen38{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen38 5s linear 3800ms   1 forwards  normal ;
-  position: relative;
+.Namen38 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen38 5s linear 3800ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen38{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10230px; left: 690px; background-color:black}
+
+@keyframes Namen38 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10230px;
+        left: 690px;
+        background-color: black
+    }
 }
-.Namen38u{
-  height: 10px;
-  width: 10px;
-  animation: Namen38u 5s linear 3800ms   1 forwards  normal ;
-  position: relative;
+
+.Namen38u {
+    height: 10px;
+    width: 10px;
+    animation: Namen38u 5s linear 3800ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen38u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10230px; left: 690px;}
+@keyframes Namen38u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10230px;
+        left: 690px;
+    }
 }
 
-.Namen39{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen39 5s linear 3900ms   1 forwards  normal ;
-  position: relative;
+.Namen39 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen39 5s linear 3900ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen39{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10350px; left: 700px; background-color:black}
+
+@keyframes Namen39 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10350px;
+        left: 700px;
+        background-color: black
+    }
 }
-.Namen39u{
-  height: 10px;
-  width: 10px;
-  animation: Namen39u 5s linear 3900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen39u {
+    height: 10px;
+    width: 10px;
+    animation: Namen39u 5s linear 3900ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen39u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10350px; left: 700px;}
+@keyframes Namen39u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10350px;
+        left: 700px;
+    }
 }
-.Namen39{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen39 5s linear 3900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen39 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen39 5s linear 3900ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen39{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10350px; left: 700px; background-color:black}
+
+@keyframes Namen39 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10350px;
+        left: 700px;
+        background-color: black
+    }
 }
-.Namen39u{
-  height: 10px;
-  width: 10px;
-  animation: Namen39u 5s linear 3900ms   1 forwards  normal ;
-  position: relative;
+
+.Namen39u {
+    height: 10px;
+    width: 10px;
+    animation: Namen39u 5s linear 3900ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen39u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10350px; left: 700px;}
+@keyframes Namen39u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10350px;
+        left: 700px;
+    }
 }
 
-.Namen40{
-  height: 10px;
-  width: 10px;
-  background-color: #20243a ;
-  animation: Namen40 5s linear 4000ms   1 forwards  normal ;
-  position: relative;
+.Namen40 {
+    height: 10px;
+    width: 10px;
+    background-color: #20243a;
+    animation: Namen40 5s linear 4000ms 1 forwards normal;
+    position: relative;
 }
-@keyframes Namen40{
-  0% {top: 0px; left: 0px; background-color:  #20243a }
-  100%{top: -10480px; left: 710px; background-color:black}
+
+@keyframes Namen40 {
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: #20243a
+    }
+    100% {
+        top: -10480px;
+        left: 710px;
+        background-color: black
+    }
 }
-.Namen40u{
-  height: 10px;
-  width: 10px;
-  animation: Namen40u 5s linear 4000ms   1 forwards  normal ;
-  position: relative;
+
+.Namen40u {
+    height: 10px;
+    width: 10px;
+    animation: Namen40u 5s linear 4000ms 1 forwards normal;
+    position: relative;
 }
+
 /*Info*/
-@keyframes Namen40u{
-0% {top: 0px; left: 0px;  }
-100%{ top:   -10480px; left: 710px;}
+@keyframes Namen40u {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: -10480px;
+        left: 710px;
+    }
 }

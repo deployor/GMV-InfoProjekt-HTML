@@ -1,45 +1,51 @@
 body {
-	font-family: Lato, sans-serif;
+    font-family: Lato, sans-serif;
     background-color: black;
 }
+
 .bild-start {
-    
-    min-width: 100px;	
-    
+
+    min-width: 100px;
+
     margin: 0px auto;
     padding: 0px;
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
-.bild1{
+
+.bild1 {
     position: relative;
-    min-width: 0px;	
+    min-width: 0px;
     width: 50%;
     margin: 0px;
     padding: 0px;
     position: relative;
-    top:0px; left: 0px;
+    top: 0px;
+    left: 0px;
 }
+
 h1 {
-    
-    width: 100%;				
-    font-weight: lighter;			
-    text-align: center;			
-    font-size: 80px;
-    color: rgb(240, 6, 208);			
-}
-h2 {
-    display: inline-block;			
+
+    width: 100%;
+    font-weight: lighter;
     text-align: center;
-    background-color: rgb(230, 23, 23);		
-    padding: 3px;				
-    margin: 5px;				
+    font-size: 80px;
+    color: rgb(240, 6, 208);
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(230, 23, 23);
+    padding: 3px;
+    margin: 5px;
     font-size: 28px;
     color: white;
 }
+
 h3 {
     display: inline-block;
     font-weight: bold;
@@ -48,45 +54,52 @@ h3 {
     padding: 10px;
     color: rgb(119, 48, 48);
 }
-.container {				
-    min-width: 775px;	
+
+.container {
+    min-width: 775px;
     display: flex;
-    flex-wrap: wrap;	
-    justify-content: center;			
-}
-.main {
-    background-size: cover;		
-    min-width: 964px;			
-    min-height: 422px;			
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;	
-    text-align: center;		
-    background-image:     url("https://abload.de/img/hamburgvyk99.jpg"); 
 }
-.more {
-    display: flex;				
+
+.main {
+    background-size: cover;
+    min-width: 964px;
+    min-height: 422px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 45px;	
+    text-align: center;
+    background-image: url("https://abload.de/img/hamburgvyk99.jpg");
 }
-.more div {				
-    background-size: cover;							     
-    min-width: 450px;								
-    min-height: 345px;								
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.more div {
+    background-size: cover;
+    min-width: 450px;
+    min-height: 345px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
     margin-left: 30px;
 }
-#sights{
-     background-image: url("https://abload.de/img/sehenswuerdigkeiteng6jig.jpg"); 
+
+#sights {
+    background-image: url("https://abload.de/img/sehenswuerdigkeiteng6jig.jpg");
 }
-#events{
-     background-image: url("https://abload.de/img/veranstaltungensbjlz.jpg"); 
+
+#events {
+    background-image: url("https://abload.de/img/veranstaltungensbjlz.jpg");
 }
-#footer {					
+
+#footer {
     text-align: center;
     color: indianred;
     width: 100%;

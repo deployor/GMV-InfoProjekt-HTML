@@ -1,125 +1,133 @@
 /* Setzt die Höhe von html und body auf 100% und entfernt den Standardrand. */
 html,
 body {
-  height: 100%; /* Setzt die Höhe auf 100%, damit das Element die gesamte Höhe des Viewports einnimmt */
-  margin: 0; /* Entfernt den Standardrand, um unerwünschte Abstände zu vermeiden */
-  font-family: "Arial", sans-serif; /* Setzt die Schriftart auf Arial oder eine ähnliche serifenlose Schrift */
+    height: 100%; /* Setzt die Höhe auf 100%, damit das Element die gesamte Höhe des Viewports einnimmt */
+    margin: 0; /* Entfernt den Standardrand, um unerwünschte Abstände zu vermeiden */
+    font-family: "Arial", sans-serif; /* Setzt die Schriftart auf Arial oder eine ähnliche serifenlose Schrift */
 }
 
 /* Zentriert den Inhalt des Body vertikal und horizontal und setzt den Hintergrund. */
 body {
-  display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
-  align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Body */
-  justify-content: center; /* Zentriert den Inhalt horizontal innerhalb des Body */
-  background-color: #20243a; /* Setzt die Hintergrundfarbe des Body auf ein dunkles Blau */
+    display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
+    align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Body */
+    justify-content: center; /* Zentriert den Inhalt horizontal innerhalb des Body */
+    background-color: #20243a; /* Setzt die Hintergrundfarbe des Body auf ein dunkles Blau */
 }
 
 /* Zentriert den Inhalt von main und fügt Polsterung hinzu. */
 main {
-  display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
-  flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
-  align-items: center; /* Zentriert den Inhalt vertikal innerhalb des main */
-  justify-content: center; /* Zentriert den Inhalt horizontal innerhalb des main */
-  padding: 20px; /* Fügt eine Polsterung von 20 Pixeln um den Inhalt von main hinzu */
+    display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
+    flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
+    align-items: center; /* Zentriert den Inhalt vertikal innerhalb des main */
+    justify-content: center; /* Zentriert den Inhalt horizontal innerhalb des main */
+    padding: 20px; /* Fügt eine Polsterung von 20 Pixeln um den Inhalt von main hinzu */
 }
 
 /* Fügt dem Header einen unteren Rand hinzu und zentriert den Text. */
 header {
-  margin-bottom: 30px; /* Fügt einen unteren Rand von 30 Pixeln hinzu, um Abstand zum nächsten Element zu schaffen */
-  text-align: center; /* Zentriert den Text innerhalb des Headers */
+    margin-bottom: 30px; /* Fügt einen unteren Rand von 30 Pixeln hinzu, um Abstand zum nächsten Element zu schaffen */
+    text-align: center; /* Zentriert den Text innerhalb des Headers */
 }
 
 /* Stellt die Schriftgröße, Farbe und andere Stile für h1 ein. */
 h1 {
-  font-size: 3rem; /* Setzt die Schriftgröße auf 3 Rem (relativ zur Schriftgröße des Root-Elements) */
-  color: #ffffff; /* Setzt die Schriftfarbe auf Weiß */
-  text-transform: uppercase; /* Wandelt den Text in Großbuchstaben um */
-  letter-spacing: 2px; /* Fügt einen Abstand von 2 Pixeln zwischen den Buchstaben hinzu */
+    font-size: 3rem; /* Setzt die Schriftgröße auf 3 Rem (relativ zur Schriftgröße des Root-Elements) */
+    color: #ffffff; /* Setzt die Schriftfarbe auf Weiß */
+    text-transform: uppercase; /* Wandelt den Text in Großbuchstaben um */
+    letter-spacing: 2px; /* Fügt einen Abstand von 2 Pixeln zwischen den Buchstaben hinzu */
 }
 
 /* Stellt die Stile für den Container ein, einschließlich Hintergrund, Polsterung, Randradius und Schatten. */
 .container {
-  background: #34495ee6; /* Setzt die Hintergrundfarbe des Containers auf ein halbtransparentes Blau */
-  padding: 40px; /* Fügt eine Polsterung von 40 Pixeln um den Inhalt des Containers hinzu */
-  border-radius: 15px; /* Rundet die Ecken des Containers mit einem Radius von 15 Pixeln ab */
-  width: 100%; /* Setzt die Breite des Containers auf 100% */
-  max-width: 500px; /* Setzt die maximale Breite des Containers auf 500 Pixel */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten um den Container hinzu */
-  display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
-  flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
-  align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Containers */
+    background: #34495ee6; /* Setzt die Hintergrundfarbe des Containers auf ein halbtransparentes Blau */
+    padding: 40px; /* Fügt eine Polsterung von 40 Pixeln um den Inhalt des Containers hinzu */
+    border-radius: 15px; /* Rundet die Ecken des Containers mit einem Radius von 15 Pixeln ab */
+    width: 100%; /* Setzt die Breite des Containers auf 100% */
+    max-width: 500px; /* Setzt die maximale Breite des Containers auf 500 Pixel */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten um den Container hinzu */
+    display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
+    flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
+    align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Containers */
 }
 
 /* Stellt die Stile für das Formular ein, einschließlich Flexbox-Eigenschaften und Abstand. */
 .reset-form {
-  display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
-  flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
-  gap: 20px; /* Fügt einen Abstand von 20 Pixeln zwischen den Formularfeldern hinzu */
-  width: 100%; /* Setzt die Breite des Formulars auf 100% */
-  align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Formulars */
+    display: flex; /* Verwendet Flexbox für das Layout, um die Kinder-Elemente zu zentrieren */
+    flex-direction: column; /* Ordnet die Kinder-Elemente in einer Spalte an */
+    gap: 20px; /* Fügt einen Abstand von 20 Pixeln zwischen den Formularfeldern hinzu */
+    width: 100%; /* Setzt die Breite des Formulars auf 100% */
+    align-items: center; /* Zentriert den Inhalt vertikal innerhalb des Formulars */
 }
 
 /* Stellt die Stile für die Formularbeschriftungen ein, einschließlich Schriftgröße und Farbe. */
 .form-label {
-  font-size: 1.2rem; /* Setzt die Schriftgröße auf 1.2 Rem */
-  color: #ffffff; /* Setzt die Schriftfarbe auf Weiß */
-  text-align: center; /* Zentriert den Text innerhalb der Beschriftung */
-  width: 100%; /* Setzt die Breite der Beschriftung auf 100% */
+    font-size: 1.2rem; /* Setzt die Schriftgröße auf 1.2 Rem */
+    color: #ffffff; /* Setzt die Schriftfarbe auf Weiß */
+    text-align: center; /* Zentriert den Text innerhalb der Beschriftung */
+    width: 100%; /* Setzt die Breite der Beschriftung auf 100% */
 }
 
 /* Stellt die Stile für die Formulareingaben ein, einschließlich Polsterung, Rand und Übergänge. */
 .form-input {
-  padding: 15px; /* Fügt eine Polsterung von 15 Pixeln um den Inhalt der Eingabe hinzu */
-  border: 1px solid #ddd; /* Setzt einen Rand von 1 Pixel mit einer hellgrauen Farbe */
-  border-radius: 10px; /* Rundet die Ecken der Eingabe mit einem Radius von 10 Pixeln ab */
-  font-size: 1.1rem; /* Setzt die Schriftgröße auf 1.1 Rem */
-  outline: none; /* Entfernt die Standardumrandung bei Fokus */
-  transition: border-color 0.3s, box-shadow 0.3s; /* Fügt Übergänge für Randfarbe und Schatten hinzu */
-  width: 100%; /* Setzt die Breite der Eingabe auf 100% */
-  max-width: 400px; /* Setzt die maximale Breite der Eingabe auf 400 Pixel */
+    padding: 15px; /* Fügt eine Polsterung von 15 Pixeln um den Inhalt der Eingabe hinzu */
+    border: 1px solid #ddd; /* Setzt einen Rand von 1 Pixel mit einer hellgrauen Farbe */
+    border-radius: 10px; /* Rundet die Ecken der Eingabe mit einem Radius von 10 Pixeln ab */
+    font-size: 1.1rem; /* Setzt die Schriftgröße auf 1.1 Rem */
+    outline: none; /* Entfernt die Standardumrandung bei Fokus */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Fügt Übergänge für Randfarbe und Schatten hinzu */
+    width: 100%; /* Setzt die Breite der Eingabe auf 100% */
+    max-width: 400px; /* Setzt die maximale Breite der Eingabe auf 400 Pixel */
 }
 
 /* Ändert die Randfarbe und fügt einen Schatten hinzu, wenn die Eingabe fokussiert ist. */
 .form-input:focus {
-  border-color: #000000; /* Ändert die Randfarbe auf Schwarz bei Fokus */
-  box-shadow: 0 0 5px rgba(0, 211, 18, 0.5); /* Fügt einen grünen Schatten um die Eingabe bei Fokus hinzu */
+    border-color: #000000; /* Ändert die Randfarbe auf Schwarz bei Fokus */
+    box-shadow: 0 0 5px rgba(0, 211, 18, 0.5); /* Fügt einen grünen Schatten um die Eingabe bei Fokus hinzu */
 }
 
 /* Stellt die Stile für den Button ein, einschließlich Hintergrundfarbe, Polsterung und Übergänge. */
 .btn {
-  background-color: #00d312; /* Setzt die Hintergrundfarbe des Buttons auf Grün */
-  color: #fff; /* Setzt die Schriftfarbe des Buttons auf Weiß */
-  padding: 15px 20px; /* Fügt eine Polsterung von 15 Pixeln oben/unten und 20 Pixeln links/rechts hinzu */
-  border: none; /* Entfernt den Standardrand des Buttons */
-  border-radius: 10px; /* Rundet die Ecken des Buttons mit einem Radius von 10 Pixeln ab */
-  font-size: 1.4rem; /* Setzt die Schriftgröße auf 1.4 Rem */
-  cursor: pointer; /* Ändert den Mauszeiger bei Hover in einen Zeiger */
-  transition: transform 0.2s, background-color 0.3s; /* Fügt Übergänge für Transformation und Hintergrundfarbe hinzu */
-  text-align: center; /* Zentriert den Text innerhalb des Buttons */
-  text-decoration: none; /* Entfernt die Standardtextdekoration */
-  width: 100%; /* Setzt die Breite des Buttons auf 100% */
-  max-width: 250px; /* Setzt die maximale Breite des Buttons auf 250 Pixel */
+    background-color: #00d312; /* Setzt die Hintergrundfarbe des Buttons auf Grün */
+    color: #fff; /* Setzt die Schriftfarbe des Buttons auf Weiß */
+    padding: 15px 20px; /* Fügt eine Polsterung von 15 Pixeln oben/unten und 20 Pixeln links/rechts hinzu */
+    border: none; /* Entfernt den Standardrand des Buttons */
+    border-radius: 10px; /* Rundet die Ecken des Buttons mit einem Radius von 10 Pixeln ab */
+    font-size: 1.4rem; /* Setzt die Schriftgröße auf 1.4 Rem */
+    cursor: pointer; /* Ändert den Mauszeiger bei Hover in einen Zeiger */
+    transition: transform 0.2s, background-color 0.3s; /* Fügt Übergänge für Transformation und Hintergrundfarbe hinzu */
+    text-align: center; /* Zentriert den Text innerhalb des Buttons */
+    text-decoration: none; /* Entfernt die Standardtextdekoration */
+    width: 100%; /* Setzt die Breite des Buttons auf 100% */
+    max-width: 250px; /* Setzt die maximale Breite des Buttons auf 250 Pixel */
 }
 
 /* Ändert die Hintergrundfarbe und skaliert den Button, wenn er schwebt. */
 .btn:hover {
-  background-color: #005809; /* Ändert die Hintergrundfarbe des Buttons bei Hover auf Dunkelgrün */
-  transform: scale(1.05); /* Skaliert den Button bei Hover um 5% */
+    background-color: #005809; /* Ändert die Hintergrundfarbe des Buttons bei Hover auf Dunkelgrün */
+    transform: scale(1.05); /* Skaliert den Button bei Hover um 5% */
 }
 
 /* Stellt die Stile für die Nachricht ein, einschließlich oberem Rand und Schriftgröße. */
 .message {
-  margin-top: 20px; /* Fügt einen oberen Rand von 20 Pixeln hinzu, um Abstand zum vorherigen Element zu schaffen */
-  font-size: 1.2rem; /* Setzt die Schriftgröße auf 1.2 Rem */
-  text-align: center; /* Zentriert den Text innerhalb der Nachricht */
+    margin-top: 20px; /* Fügt einen oberen Rand von 20 Pixeln hinzu, um Abstand zum vorherigen Element zu schaffen */
+    font-size: 1.2rem; /* Setzt die Schriftgröße auf 1.2 Rem */
+    text-align: center; /* Zentriert den Text innerhalb der Nachricht */
 }
-.leon1{
-  animation:leon 5s linear 0s infinite alternate ;
-  
-  }
-  @keyframes leon {
-  0% {background-color: blue;}
-  50%{background-color: red;}
-  100%{background-color: yellow;}
-  }
+
+.leon1 {
+    animation: leon 5s linear 0s infinite alternate;
+
+}
+
+@keyframes leon {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
   

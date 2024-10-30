@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Willkommen</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet"/>
     <script>
-      document.addEventListener("DOMContentLoaded", function() { // wartet bis die seite geladen ist-> dann wird der code ausgeführt
-        if (!document.cookie.includes("firstTimeBeingHere=true")) { // "!" bedeutzet nichts anders als NICHT. also wenn NICHT firstTimeBeingHere=true
-          document.cookie = "firstTimeBeingHere=true; path=/"; // setzt den cookie firstTimeBeingHere=true mit dem pfad / also ALLE seiten.
-          window.location.href = "welcome.html";
-        }
-      });
+
+        document.addEventListener("DOMContentLoaded", function () { // wartet bis die seite geladen ist-> dann wird der code ausgeführt
+            if (!document.cookie.includes("firstTimeBeingHere=true")) { // "!" bedeutet nichts anders als NICHT. also wenn NICHT firstTimeBeingHere=true
+                document.cookie = "firstTimeBeingHere=true; path=/"; // setzt den cookie firstTimeBeingHere=true mit dem pfad / also ALLE seiten.
+                window.location.href = "welcome.html";
+            }
+        });
     </script>
-  </head>
-  <body>
-    <header>
-      <nav>
+</head>
+<body>
+<header>
+    <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="welcome.html">Einführung</a></li>
-          <li><a href="idee.html">Die Idee</a></li>
-          <li><a href="code.html">Der Code</a></li>
-          <li><a href="data.html">Datenschutzerklärung</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="welcome.html">Einführung</a></li>
+            <li><a href="idee.html">Die Idee</a></li>
+            <li><a href="code.html">Der Code</a></li>
+            <li><a href="data.html">Datenschutzerklärung</a></li>
         </ul>
-      </nav>
-      
-      <h1 class="leon1">Willkommen</h1>
-      
-      
-    </header>
-    <main>
-      <div class="container">
+    </nav>
+
+    <h1 class="welcome-heading">Willkommen</h1></header>
+<div class="background-icons"></div>
+<main>
+    <div class="container">
         <p class="beschreibung">
-          Willkommen.
+            Willkommen.
         </p>
         <div class="buttons">
-            <a href="Animation.html" class="btn">Neue Version</a>
-            <a href="/v1/index.html" class="btn">Prototyp</a>
+            <a class="btn" href="Animation.html">Neue Version</a>
+            <a class="btn" href="/v1/index.html">Prototyp</a>
         </div>
-      </div>
-    </main>
-  </body>
+    </div>
+</main>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Konstanten
+        const iconClassList = [ // liste von icons (classes)
+            'fa-solid fa-comment', 'fa-solid fa-moon', 'fa-solid fa-cog', 'fa-lock', 'fa-solid fa-square-check', "fa-solid fa-trophy", "fa-solid fa-medal", "fa-solid fa-file", "fa-solid fa-sitemap", "fa-solid fa-cloud", "fa-solid fa-paragraph"
+        ];
+        const iconContainer = document.querySelector('.background-icons');
+        const totalIcons = 200;
+
+        // Main
+        for (let i = 0; i < totalIcons; i++) {
+            const icon = document.createElement('i'); // erstellt ein neues icon (i)
+            icon.className = `icon fas ${iconClassList[Math.floor(Math.random() * iconClassList.length)]}`;
+            icon.style.setProperty('--rotate', `${Math.random() * 360}deg`); // setzt die rotation des icons auf einen random
+            icon.style.setProperty('--translateX', `${Math.random() * 100}vw`); // setzt die x translation des icons auf random
+            icon.style.setProperty('--translateY', `${Math.random() * 100}vh`); // setzt die y translation des icons auf random
+            iconContainer.appendChild(icon); // fügt das icon dem container hinzu
+        }
+    });
+</script>
+</body>
 </html>
