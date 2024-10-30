@@ -34,29 +34,25 @@
     }
 
     async function addPost() {
-        const username = document.querySelector(".username-input").value.trim(); // get the username / name inputted
-        const content = document.querySelector(".comments-input").value.trim(); // get the comment inputted
+        const username = document.querySelector(".username-input").value.trim();
+        const content = document.querySelector(".comments-input").value.trim();
 
         if (!username) {
-            // if the username is empty, remind them politely ehem
             alert("Du bist namenslos? Oh nein!!!");
             return;
         }
 
         if (!content) {
-            // if the comment is empty, remind them politely too ehem
             alert("Du kannst nix leeres posten kek");
             return;
         }
 
-        const {data, error} = await supabase // add the post to supabase
-
+        const {error} = await supabase
             .from("posts")
             .insert([{username, content, created_at: new Date().toISOString()}]);
 
         if (error) {
-            // if there is an error, log it and return out of the function
-            console.error("Woops. error. Errocode:", error); // debuging
+            console.error("Woops. error. Errocode:", error);
             return;
         }
 
