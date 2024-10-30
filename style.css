@@ -25,6 +25,7 @@ main {
 /* Kopfzeile */
 header {
   margin-bottom: 20px;
+  z-index: 2;
 }
 
 /* Überschriften */
@@ -44,12 +45,13 @@ h1 {
 
 /* Container */
 .container {
-  background: #34495ee6;
+  background: #34495e;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgb(71, 71, 71);
   max-width: 400px;
   padding: 20px;
   width: 80%;
+  z-index: 2;
 }
 
 .outer-container {
@@ -61,7 +63,7 @@ h1 {
 }
 
 .inner-container {
-  background-color: #34495ee6;
+  background-color: #34495e;
   border-radius: 20px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   max-width: 500px;
@@ -102,6 +104,7 @@ h1 {
 nav {
   background-color: #34495e;
   overflow: hidden;
+  z-index: 2;
 }
 
 nav ul {
@@ -131,6 +134,7 @@ nav ul li a:hover {
   border-radius: 4px;
   color: #ffffff;
   transform: scale(1.1);
+  z-index: 2;
 }
 
 /* Listen */
