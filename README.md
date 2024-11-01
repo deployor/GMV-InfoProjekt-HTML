@@ -2,7 +2,7 @@
 
 ![Banner](https://i.imgur.com/MVpOA9N.png)
 
-## Informatik Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
+## Informatik Projekt - Quiz 👨‍💻👩‍💻
 
 Hey! Willkommen zu unserem Informatikprojekt. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr
 es
