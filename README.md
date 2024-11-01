@@ -22,11 +22,11 @@ JavaScript konnten wir das Ganze lebendiger gestalten, aber darauf haben wir mei
 Es basiert auf einer ähnlichen Projektidee, die wir bereits früher umgesetzt haben. Diesmal, war sie ja aber deutlich
 besser umsetzbar.
 
-Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübersicht](https://hdf.tf/welcome.html)
+Wenn du mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübersicht](https://hdf.tf/welcome.html)
 
 ## Wie kann man das Projekt sehen ☁️
 
-Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst
+Unsere Webseite läuft live auf Azure! Sie können sie jederzeit unter dem folgenden Link besuchen und selbst
 ausprobieren: [zur Webseite](https://hdf.tf/)
 
 *Viel Spaß beim testen! ♥️*
