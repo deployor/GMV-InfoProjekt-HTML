@@ -77,6 +77,6 @@ function endQuiz() {
     ).innerText = `Deine Punkte: ${score}. ${resultMessage}`;
 }
 
-function restartQuiz() {
+function restartQuiz() { // TODO: Show the button not at the result screen, but at the end of the quiz. (have to revamp structure fully)
     location.reload(); // Ja, ich bin faul :)
 }
