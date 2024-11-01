@@ -124,7 +124,7 @@ Section 1 – Definitions.
 Section 2 – Scope.
 
 - a. License grant.
-    -
+  -
         1. Subject to the terms and conditions of this Public License,
            the Licensor hereby grants You a worldwide, royalty-free,
            non-sublicensable, non-exclusive, irrevocable license to
@@ -179,7 +179,7 @@ Section 2 – Scope.
            or others designated to receive attribution as provided in
            Section 3(a)(1)(A)(i).
 - b. Other rights.
-    -
+  -
         1. Moral rights, such as the right of integrity, are not
            licensed under this Public License, nor are publicity, privacy,
            and/or other similar personality rights; however, to the extent
@@ -204,7 +204,7 @@ Your exercise of the Licensed Rights is expressly made subject to the
 following conditions.
 
 - a. Attribution.
-    -
+  -
         1. If You Share the Licensed Material (including in modified
            form), You must:
 

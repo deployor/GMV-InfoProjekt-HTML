@@ -97,17 +97,18 @@ h2 {
 }
 
 
-
 .antwort-knopf:hover,
 .post-button:hover {
     background-color: #00d312;
     transform: scale(1.05);
 }
+
 .antworten2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 .antwort-knopf2,
 .post-button {
     background-color: #ff6600;
@@ -130,6 +131,7 @@ h2 {
     background-color: #00d312;
     transform: scale(1.05);
 }
+
 .antwort-knopf3,
 .post-button {
     background-color: #ffa600;
@@ -152,6 +154,7 @@ h2 {
     background-color: #00d312;
     transform: scale(1.05);
 }
+
 .antwort-knopf4,
 .post-button {
     background-color: #25b301;
@@ -174,6 +177,7 @@ h2 {
     background-color: #035203;
     transform: scale(1.05);
 }
+
 .antwort-knopf5,
 .post-button {
     background-color: #0148b3;
@@ -196,6 +200,7 @@ h2 {
     background-color: #035203;
     transform: scale(1.05);
 }
+
 .frage-bild,
 .falsch-bild {
     width: 100%;

@@ -4,7 +4,8 @@
 
 ## Informatik Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
 
-Hey! Willkommen zu unserem Informatikprojekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt, die
+Hey! Willkommen zu unserem Informatikprojekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt,
+die
 ein interaktives Frage-Labyrinth bietet. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr es
 ausprobieren könnt.
 

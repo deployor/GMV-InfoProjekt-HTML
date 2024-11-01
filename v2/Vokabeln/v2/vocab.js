@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const wordList = [
         {
-            english: "Hello",
+            english: "Hello", // TODO: think of a way u can go from multiple anwsewrs to multiple anwsers.
             german: ["Hallo", "Moin", "Guten Tag"],
             spanish: ["Hola"],
             french: ["Bonjour"],
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             english: ["Bye"],
-            german: ["Auf Wiedersehen", "Tschüss", "Bis bald"],
+            german: ["Auf Wiedersehen", "Tschüss", "Bis bald"], // TODO: Fix special characters
             spanish: ["Adiós"],
             french: ["Au revoir"],
             latin: ["Vale"],
@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalWords = wordList.length;
     let confetti;
 
+    // DOM elements, ja diesmal constants, weil es relativ viel ist!
     const selectionScreen = document.getElementById("selection-screen");
     const cardContainer = document.getElementById("card-container");
     const flashcard = document.getElementById("flashcard");
@@ -67,8 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const retryBtn = document.getElementById("retry-btn");
     const backToSelectionBtn = document.getElementById("back-to-selection-btn");
 
-    // Cheatttttt
-    let cheatMode = true;
+    // Hehe, cheat mode (for testing)
+    let cheatMode = false;
 
     function celebrateCorrectAnswer() {
         if (confetti) {
@@ -153,13 +154,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             answerInput.value = "";
             feedbackElement.textContent = "";
-            flashcard.classList.remove("flipped");
+            flashcard.classList.remove("flipped"); // TODO: bring back flipped / remove it altogether
             updateProgress();
         } else if (incorrectWords.length > 0) {
             wordList.push(...incorrectWords);
             incorrectWords = [];
             loadWord();
-        } else {
+        } else { // TODO: Fix redoing the quiz
             endScreen.style.display = "block";
             cardContainer.style.display = "none";
             celebrateCorrectAnswer();

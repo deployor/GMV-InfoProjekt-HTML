@@ -1,11 +1,13 @@
+// Variables
 let flagsDataTable = [];
 let score = 0;
 let currentRound = 0;
 const maxRounds = 10;
 
+// Eigentlich erklärt sich alles von selbst :)
 async function startQuiz(difficulty) {
     const populationsDiffictultyHelpSpellingIsHard = {
-        eassyyyy: [130000000, 122333444455555666666777777788888888999999999],
+        eassyyyy: [130000000, 122333444455555666666777777788888888999999999], // TODO: Find better rage for all difficulties, they dont work as intended.
         mediumRare: [10000000, 50000000],
         wellDone: [500000, 10000000],
     };
@@ -14,7 +16,7 @@ async function startQuiz(difficulty) {
     document.getElementById("difficulty-selection").classList.add("hidden");
     document.getElementById("quiz-container").classList.remove("hidden");
 
-    const response = await fetch("https://restcountries.com/v3.1/all");
+    const response = await fetch("https://restcountries.com/v3.1/all"); // TODO: Dont fetch all countries, but fetch only the needed data.
     const countries = await response.json();
 
     flagsDataTable = countries.filter(
@@ -31,7 +33,7 @@ function nextFlag() {
     }
 
     const randomCountry =
-        flagsDataTable[Math.floor(Math.random() * flagsDataTable.length)];
+        flagsDataTable[Math.floor(Math.random() * flagsDataTable.length)]; // selfexplanatory
 
     document.getElementById("flag").src = randomCountry.flags.svg;
     document.getElementById("flag").dataset.countryName =
@@ -55,7 +57,7 @@ function sendAnwaser() {
 
     const resultMessage = document.getElementById("result-message");
     if (userAnswer === correctAnswer) {
-        score++;
+        score++; // ++ ist das gleiche wie += 1
         resultMessage.innerText = "Richtigggg!";
     } else {
         resultMessage.innerText = `Falschhh! Richtig wäre ${correctAnswer} gewesen.`;
@@ -73,4 +75,8 @@ function endQuiz() {
     document.getElementById(
         "result-message"
     ).innerText = `Deine Punkte: ${score}. ${resultMessage}`;
+}
+
+function restartQuiz() {
+    location.reload(); // Ja, ich bin faul :)
 }
