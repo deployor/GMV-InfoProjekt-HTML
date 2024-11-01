@@ -4,9 +4,8 @@
 
 ## Informatik Projekt von Tom, Leon, Henri, James 👨‍💻👩‍💻
 
-Hey! Willkommen zu unserem Informatikprojekt. Wir – Tom, Leon, Henri und James – haben zusammen eine Webseite erstellt,
-die
-ein interaktives Frage-Labyrinth bietet. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr es
+Hey! Willkommen zu unserem Informatikprojekt. Hier findet ihr alles, was ihr über unser Projekt wissen müsst und wie ihr
+es
 ausprobieren könnt.
 
 ## Inhaltsverzeichnis 📑
@@ -30,4 +29,4 @@ Wenn ihr mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektübe
 Unsere Webseite läuft live auf Azure! Ihr könnt sie jederzeit unter dem folgenden Link besuchen und selbst
 ausprobieren: [zur Webseite](https://hdf.tf/)
 
-*Viel Spaß beim Ausprobieren! ♥️*
+*Viel Spaß beim testen! ♥️*
