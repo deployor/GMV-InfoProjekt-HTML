@@ -148,24 +148,6 @@ li {
     margin-left: 20px;
 }
 
-/* Wilkommen Animation */
-.welcome-heading {
-    animation: welcome-animation 5s linear 0s infinite alternate;
-}
-
-@keyframes welcome-animation {
-    0% {
-        background-color: blue;
-    }
-    50% {
-        background-color: red;
-    }
-    100% {
-        background-color: yellow;
-    }
-}
-
-
 .background-icons {
     position: fixed;
     top: 0;

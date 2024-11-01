@@ -5,14 +5,18 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Willkommen</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <!--
     <script>
-        document.addEventListener("DOMContentLoaded", function () { // wartet bis die seite geladen ist dann wird der code ausgeführt
+
+        document.addEventListener("DOMContentLoaded", function () { // wartet bis die seite geladen ist-> dann wird der code ausgeführt
             if (!document.cookie.includes("firstTimeBeingHere=true")) { // "!" bedeutet nichts anders als NICHT. also wenn NICHT firstTimeBeingHere=true
                 document.cookie = "firstTimeBeingHere=true; path=/"; // setzt den cookie firstTimeBeingHere=true mit dem pfad / also ALLE seiten.
-                window.location.href = "welcome.html"; // self explanatory
+                window.location.href = "welcome.html";
             }
         });
     </script>
+    -->
 </head>
 <body>
 <header>
@@ -26,12 +30,13 @@
         </ul>
     </nav>
 
-    <h1 class="leon1">Willkommen</h1>
+    <h1>Willkommen</h1>
 </header>
 <main>
+    <div class="background-icons"></div>
     <div class="container">
         <p class="beschreibung">
-            Hey! wähle kurz aus was angucken willst, die neue Version oder den Prototypen.
+            Willkommen.
         </p>
         <div class="buttons">
             <a class="btn" href="Animation.html">Neue Version</a>
@@ -39,5 +44,25 @@
         </div>
     </div>
 </main>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Konstanten
+        const iconClassList = [ // liste von icons (classes)
+            'fa-solid fa-comment', 'fa-solid fa-moon', 'fa-solid fa-cog', 'fa-lock', 'fa-solid fa-square-check', "fa-solid fa-trophy", "fa-solid fa-medal", "fa-solid fa-file", "fa-solid fa-sitemap", "fa-solid fa-cloud", "fa-solid fa-paragraph"
+        ];
+        const iconContainer = document.querySelector('.background-icons');
+        const totalIcons = 200;
+
+        // Main
+        for (let i = 0; i < totalIcons; i++) {
+            const icon = document.createElement('i'); // erstellt ein neues icon (i)
+            icon.className = `icon fas ${iconClassList[Math.floor(Math.random() * iconClassList.length)]}`;
+            icon.style.setProperty('--rotate', `${Math.random() * 360}deg`); // setzt die rotation des icons auf einen random
+            icon.style.setProperty('--translateX', `${Math.random() * 100}vw`); // setzt die x translation des icons auf random
+            icon.style.setProperty('--translateY', `${Math.random() * 100}vh`); // setzt die y translation des icons auf random
+            iconContainer.appendChild(icon); // fügt das icon dem container hinzu
+        }
+    });
+</script>
 </body>
 </html>
