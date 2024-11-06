@@ -29,4 +29,4 @@ Wenn du mehr dazu wissen wollt, schaut euch unser Projekt hier an: [Projektüber
 Unsere Webseite läuft live auf Azure! Sie können sie jederzeit unter dem folgenden Link besuchen und selbst
 ausprobieren: [zur Webseite](https://hdf.tf/)
 
-*Viel Spaß beim testen! ♥️*
+*Viel Spaß beim testen! ❤️♥️*
