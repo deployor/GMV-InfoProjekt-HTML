@@ -1,2 +1,18 @@
-- name: HTML Preview
-  uses: pavi2410/html-preview-action@v4
+name: HTML Preview
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  html-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: HTML Preview
+        uses: pavi2410/html-preview-action@v4
