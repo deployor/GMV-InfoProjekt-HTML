@@ -10,8 +10,8 @@ ausprobieren könnt.
 
 ## Inhaltsverzeichnis 📑
 
-1. [Über das Projekt 📖](#über-das-projekt-)
-2. [Wie kann man das Projekt ansehen ☁️](#wie-kann-man-das-projekt-sehen-)
+1. [Über das Projekt 📖](#über-das-projekt-📖)
+2. [Wie kann man das Projekt ansehen ☁️](#wie-kann-man-das-projekt-sehen-☁️)
 
 ## Über das Projekt 📖
 
